@@ -15,6 +15,11 @@ jobs:
       - name: ↩️ Checkout
         uses: actions/checkout@v2
 
+      - name: 🔍 Lint markdown files
+        uses: nosborn/github-action-markdown-cli@v3.0.1
+        with:
+          files: riddles
+
       - name: ⚙️ Render Markdown files
         uses: BaileyJM02/markdown-to-pdf@v1
         with:
