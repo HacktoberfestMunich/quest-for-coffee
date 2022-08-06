@@ -1,0 +1,41 @@
+name: Render riddles and deploy
+
+on:
+  push:
+    paths:
+      - 'riddles/**'
+  workflow_dispatch:
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: ↩️ Checkout
+        uses: actions/checkout@v2
+
+      - name: ⚙️ Render Markdown files
+        uses: BaileyJM02/markdown-to-pdf@v1
+        with:
+          input_path: riddles
+          images_dir: riddles/assets
+          image_import: assets
+          output_dir: deploy
+          build_html: true
+          build_pdf: false
+
+      - name: 📦 Package deployment
+        run: |
+          cp LICENCE deploy/
+          ls -al deploy
+
+      - name: 🚐 Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: deploy
+          target-folder: riddles
+          clean: false
