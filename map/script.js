@@ -22,3 +22,4 @@ function checkForNewOpenDoors() {
 }
 
 setInterval(checkForNewOpenDoors, UPDATE_INTERVAL)
+setTimeout(checkForNewOpenDoors, 2000);
