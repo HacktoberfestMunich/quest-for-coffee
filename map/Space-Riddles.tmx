@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="4">
+ <editorsettings>
+  <export target="Space-Riddles..json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="scifi_space_rpg_tiles_lpcized" tilewidth="32" tileheight="32" tilecount="112" columns="14">
   <image source="assets/lpc-goes-to-space/scifi_space_rpg_tiles_lpcized.png" width="448" height="256"/>
   <tile id="6">
@@ -338,7 +341,7 @@
   </tile>
  </tileset>
  <objectgroup id="17" name="Jitsi">
-  <object id="3" x="-15" y="-2" width="757" height="651">
+  <object id="3" type="area" x="-15" y="-2" width="757" height="651">
    <properties>
     <property name="jitsiRoom" value="space-riddle2022"/>
     <property name="openWebsiteClosable" type="bool" value="false"/>
@@ -373,7 +376,7 @@
 </data>
  </layer>
  <objectgroup id="15" name="Riddles">
-  <object id="1" name="Riddle 0" x="55" y="97" width="135" height="127">
+  <object id="1" name="Riddle 0" type="area" x="55" y="97" width="135" height="127">
    <properties>
     <property name="jitsiRoom" value="space-riddle2022"/>
     <property name="openWebsite" value="https://howto.rc3.world/2021/maps.html"/>
@@ -433,7 +436,6 @@
 </data>
   </layer>
  </group>
- <objectgroup id="12" name="floorLayer"/>
  <layer id="10" name="Deco" width="30" height="20">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -534,4 +536,5 @@
 </data>
   </layer>
  </group>
+ <objectgroup id="12" name="floorLayer"/>
 </map>
