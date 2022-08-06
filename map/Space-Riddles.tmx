@@ -7,6 +7,7 @@
   <property name="mapCopyright" value="MIT License - Copyright (c) 2022 HacktoberfestMunich Team"/>
   <property name="mapLink" value="https://github.com/HacktoberfestMunich/space-riddles"/>
   <property name="mapName" value="Space-Riddles"/>
+  <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" name="scifi_space_rpg_tiles_lpcized" tilewidth="32" tileheight="32" tilecount="112" columns="14">
   <image source="assets/lpc-goes-to-space/scifi_space_rpg_tiles_lpcized.png" width="448" height="256"/>
