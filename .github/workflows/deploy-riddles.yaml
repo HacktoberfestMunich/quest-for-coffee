@@ -32,6 +32,7 @@ jobs:
 
       - name: 📦 Package deployment
         run: |
+          chown -R $USER:$USER deploy
           cp LICENCE deploy/
           ls -al deploy
 
