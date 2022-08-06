@@ -28,6 +28,7 @@ jobs:
           image_import: assets
           theme: riddles/style.css
           extend_default_theme: false
+          table_of_contents: false
           output_dir: deploy
           build_html: true
           build_pdf: false
