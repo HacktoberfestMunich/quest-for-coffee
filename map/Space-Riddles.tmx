@@ -817,7 +817,7 @@ https://git.cccv.de/rc3/world-tiles/-/tree/master/</property>
   </layer>
  </group>
  <group id="7" name="Doors">
-  <layer id="6" name="door 0" width="22" height="19">
+  <layer id="6" name="riddle-0" width="22" height="19">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,51,52,0,0,0,0,0,0,0,0,0,0,

@@ -275,7 +275,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":19,
                  "id":6,
-                 "name":"door 0",
+                 "name":"riddle-0",
                  "opacity":1,
                  "type":"tilelayer",
                  "visible":true,
