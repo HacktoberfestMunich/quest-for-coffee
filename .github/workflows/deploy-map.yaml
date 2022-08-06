@@ -1,0 +1,42 @@
+name: Optimize map and deploy
+
+on:
+  push:
+    paths:
+      - 'map/**'
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: ↩️ Checkout
+        uses: actions/checkout@v2
+
+      - name: ⚙️ Optimize map
+        uses: thecodingmachine/map-optimizer-action@master
+
+      - name: ☑️ Commit optimized files
+        if: github.ref == 'refs/heads/main'
+        run: |
+          ls -al
+          git config --global user.email "deploy@space-riddles.poeschl"
+          git config --global user.name "deploy"
+          git checkout main
+          git add .
+          git commit -m "♻️ Adding optimized map files"
+
+      - name: 🚐 Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: map
+          target-folder: map
+          clean: "false"
+
+      - name: 📋 List files
+        run: |
+          ls -al map
