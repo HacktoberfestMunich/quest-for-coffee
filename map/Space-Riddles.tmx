@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="22" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="4">
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="22" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="20" nextobjectid="4">
  <editorsettings>
   <export target="Space-Riddles.json" format="json"/>
  </editorsettings>
@@ -604,14 +604,33 @@ https://git.cccv.de/rc3/world-tiles/-/tree/master/</property>
    </animation>
   </tile>
  </tileset>
- <objectgroup id="17" name="Jitsi">
-  <object id="3" type="area" x="13" y="10" width="680" height="589">
-   <properties>
-    <property name="jitsiRoom" value="space-riddle2022"/>
-    <property name="openWebsiteClosable" type="bool" value="false"/>
-   </properties>
-  </object>
- </objectgroup>
+ <layer id="18" name="Jitsi" width="22" height="19">
+  <properties>
+   <property name="jitsiRoom" value="space-riddle2022"/>
+   <property name="openWebsiteClosable" type="bool" value="false"/>
+  </properties>
+  <data encoding="csv">
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,
+259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259,259
+</data>
+ </layer>
  <layer id="11" name="start" width="22" height="19">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
@@ -638,17 +657,36 @@ https://git.cccv.de/rc3/world-tiles/-/tree/master/</property>
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="15" name="Riddles">
-  <object id="1" name="Riddle 0" type="area" x="55" y="97" width="135" height="127">
-   <properties>
-    <property name="jitsiRoom" value="space-riddle2022"/>
-    <property name="openWebsite" value="https://howto.rc3.world/2021/maps.html"/>
-    <property name="openWebsiteClosable" type="bool" value="false"/>
-    <property name="openWebsiteTrigger" value="onaction"/>
-    <property name="openWebsiteTriggerMessage" value="(Mit Leertaste) Das erste Rätsel öffnen"/>
-   </properties>
-  </object>
- </objectgroup>
+ <layer id="19" name="Riddle 0" width="22" height="19">
+  <properties>
+   <property name="jitsiRoom" value="space-riddle2022"/>
+   <property name="openWebsite" value="https://howto.rc3.world/2021/maps.html"/>
+   <property name="openWebsiteClosable" type="bool" value="false"/>
+   <property name="openWebsiteTrigger" value="onaction"/>
+   <property name="openWebsiteTriggerMessage" value="(Mit Leertaste) Das erste Rätsel öffnen"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,259,259,259,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,259,259,259,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
  <group id="9" name="Floor">
   <layer id="5" name="floor" width="22" height="19">
    <data encoding="csv">
