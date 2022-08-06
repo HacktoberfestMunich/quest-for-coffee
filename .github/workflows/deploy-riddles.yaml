@@ -30,12 +30,6 @@ jobs:
           build_html: true
           build_pdf: false
 
-      - name: 📦 Package deployment
-        run: |
-          chown -R $USER:$USER deploy
-          cp LICENCE deploy/
-          ls -al deploy
-
       - name: 🚐 Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         if: github.ref == 'refs/heads/main'

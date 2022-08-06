@@ -23,7 +23,6 @@ jobs:
           mkdir deploy
           cp map/Space-Riddles.json deploy/
           cp -R map/assets deploy/
-          cp LICENCE deploy/
           ls -al deploy
 
       - name: 🚐 Deploy
