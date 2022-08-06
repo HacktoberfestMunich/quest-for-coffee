@@ -23,7 +23,7 @@
                          "value":false
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":757,
                  "x":-15,
@@ -89,7 +89,7 @@
                          "value":"(Mit Leertaste) Das erste R\u00e4tsel \u00f6ffnen"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":135,
                  "x":55,
@@ -131,17 +131,6 @@
          "name":"Floor",
          "opacity":1,
          "type":"group",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":12,
-         "name":"floorLayer",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
          "visible":true,
          "x":0,
          "y":0
@@ -212,6 +201,17 @@
          "name":"Walls",
          "opacity":1,
          "type":"group",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":12,
+         "name":"floorLayer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
          "visible":true,
          "x":0,
          "y":0
