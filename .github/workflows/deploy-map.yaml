@@ -17,16 +17,6 @@ jobs:
       - name: ⚙️ Optimize map
         uses: thecodingmachine/map-optimizer-action@master
 
-      - name: ☑️ Commit optimized files
-        if: github.ref == 'refs/heads/main'
-        run: |
-          ls -al
-          git config --global user.email "deploy@space-riddles.poeschl"
-          git config --global user.name "deploy"
-          git checkout main
-          git add .
-          git commit -m "♻️ Adding optimized map files"
-
       - name: 🚐 Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         if: github.ref == 'refs/heads/main'
