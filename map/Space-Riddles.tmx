@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="4">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="22" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="4">
  <editorsettings>
-  <export target="Space-Riddles..json" format="json"/>
+  <export target="Space-Riddles.json" format="json"/>
  </editorsettings>
+ <properties>
+  <property name="mapCopyright" value="MIT License - Copyright (c) 2022 HacktoberfestMunich Team"/>
+  <property name="mapLink" value="https://github.com/HacktoberfestMunich/space-riddles"/>
+  <property name="mapName" value="Space-Riddles"/>
+ </properties>
  <tileset firstgid="1" name="scifi_space_rpg_tiles_lpcized" tilewidth="32" tileheight="32" tilecount="112" columns="14">
   <image source="assets/lpc-goes-to-space/scifi_space_rpg_tiles_lpcized.png" width="448" height="256"/>
   <tile id="6">
@@ -138,151 +143,361 @@
   <tile id="73">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="74">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="75">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="76">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="77">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="78">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="79">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="80">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="81">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="82">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="87">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="88">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="89">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="90">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="91">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="92">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="93">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="94">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="95">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="96">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="101">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="102">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="103">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="104">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="105">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="106">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="107">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="108">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="109">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
   <tile id="110">
    <properties>
     <property name="collides" type="bool" value="true"/>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-goes-to-space</property>
    </properties>
   </tile>
  </tileset>
@@ -299,6 +514,15 @@
    </animation>
   </tile>
   <tile id="33">
+   <properties>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+Copyright/Attribution Notice: 
+Based on work of Hyptosis, FunwithPixels and Skorpio
+
+https://opengameart.org/content/lpc-frama-sci-fi-extensions</property>
+   </properties>
    <animation>
     <frame tileid="33" duration="200"/>
     <frame tileid="34" duration="200"/>
@@ -314,11 +538,46 @@
    <property name="collides" type="bool" value="true"/>
   </properties>
   <image source="assets/lpc-hakuna-matetee/hakuna_matetee.png" width="224" height="96"/>
+  <tile id="14">
+   <properties>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0\n
+
+https://opengameart.org/content/lpc-hakuna-matetee</property>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0\n
+
+https://opengameart.org/content/lpc-hakuna-matetee</property>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0\n
+
+https://opengameart.org/content/lpc-hakuna-matetee</property>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="233" name="hakuna_matetee2" tilewidth="32" tileheight="32" tilecount="20" columns="4">
+  <properties>
+   <property name="tilesetCopyright">CC-BY-SA 4.0
+GPL 3.0
+
+https://opengameart.org/content/lpc-hakuna-matetee</property>
+  </properties>
   <image source="assets/lpc-hakuna-matetee/hakuna_matetee2.png" width="128" height="160"/>
  </tileset>
  <tileset firstgid="253" name="minideko" tilewidth="32" tileheight="32" tilecount="91" columns="7">
+  <properties>
+   <property name="tilesetCopyright">CC0
+
+https://git.cccv.de/rc3/world-tiles/-/tree/master/</property>
+  </properties>
   <image source="assets/rc3-world-tiles/minideko.png" width="224" height="416"/>
  </tileset>
  <tileset firstgid="344" name="rc3-mullana-neon-signs" tilewidth="32" tileheight="32" tilecount="256" columns="16">
@@ -332,6 +591,11 @@
    </animation>
   </tile>
   <tile id="52">
+   <properties>
+    <property name="tilesetCopyright">CC0
+
+https://git.cccv.de/rc3/world-tiles/-/tree/master/</property>
+   </properties>
    <animation>
     <frame tileid="52" duration="2000"/>
     <frame tileid="116" duration="100"/>
@@ -341,38 +605,37 @@
   </tile>
  </tileset>
  <objectgroup id="17" name="Jitsi">
-  <object id="3" type="area" x="-15" y="-2" width="757" height="651">
+  <object id="3" type="area" x="13" y="10" width="680" height="589">
    <properties>
     <property name="jitsiRoom" value="space-riddle2022"/>
     <property name="openWebsiteClosable" type="bool" value="false"/>
    </properties>
   </object>
  </objectgroup>
- <layer id="11" name="start" width="30" height="20">
+ <layer id="11" name="start" width="22" height="19">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="15" name="Riddles">
@@ -387,152 +650,146 @@
   </object>
  </objectgroup>
  <group id="9" name="Floor">
-  <layer id="5" name="floor" width="30" height="20">
+  <layer id="5" name="floor" width="22" height="19">
    <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,0,0,0,0,0,0,0,0,
-0,29,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,31,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,0,
+0,29,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,31,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
   </layer>
-  <layer id="8" name="on floor" width="30" height="20">
+  <layer id="8" name="on floor" width="22" height="19">
    <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,55,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,69,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,55,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,69,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
   </layer>
  </group>
- <layer id="10" name="Deco" width="30" height="20">
+ <layer id="10" name="Deco" width="22" height="19">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,135,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,135,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <group id="7" name="Doors">
-  <layer id="6" name="door 0" width="30" height="20" offsetx="-2" offsety="-3">
+  <layer id="6" name="door 0" width="22" height="19">
    <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,65,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,51,52,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,65,66,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
   </layer>
  </group>
  <group id="3" name="Walls">
-  <layer id="1" name="walls" width="30" height="20">
+  <layer id="1" name="walls" width="22" height="19">
    <data encoding="csv">
-53,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,54,0,0,0,0,0,0,0,0,
-11,25,25,25,25,25,25,25,25,25,23,24,25,25,25,25,25,25,25,25,25,8,0,0,0,0,0,0,0,0,
-11,39,39,39,39,39,39,39,39,39,37,38,39,39,39,39,39,39,39,39,39,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,
-67,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,68,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+53,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,54,
+11,25,25,25,25,25,25,25,25,25,23,24,25,25,25,25,25,25,25,25,25,8,
+11,39,39,39,39,39,39,39,39,39,37,38,39,39,39,39,39,39,39,39,39,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+67,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,1073741834,68
 </data>
   </layer>
-  <layer id="2" name="on walls" width="30" height="20">
+  <layer id="2" name="on walls" width="22" height="19">
    <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,219,220,0,0,0,0,0,0,0,0,0,0,395,396,0,214,215,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,219,220,0,0,0,0,0,0,0,0,0,0,395,396,0,214,215,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
   </layer>
  </group>
