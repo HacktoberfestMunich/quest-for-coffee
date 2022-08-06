@@ -18,16 +18,20 @@ jobs:
       - name: ⚙️ Optimize map
         uses: thecodingmachine/map-optimizer-action@master
 
+      - name: 📦 Package deployment
+        run: |
+          mkdir deploy
+          cp map/Space-Riddles.json deploy/
+          cp -R map/assets deploy/
+          cp LICENCE deploy/
+          ls -al deploy
+
       - name: 🚐 Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         if: github.ref == 'refs/heads/main'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
-          folder: map
+          folder: deploy
           target-folder: map
           clean: "false"
-
-      - name: 📋 List files
-        run: |
-          ls -al map
