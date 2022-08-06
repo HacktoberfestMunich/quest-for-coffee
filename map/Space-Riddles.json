@@ -407,6 +407,12 @@
          "imagewidth":448,
          "margin":0,
          "name":"scifi_space_rpg_tiles_lpcized",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"LPC goes to space\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space\nCC-BY-SA 4.0\nGPL 3.0\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio"
+                }],
          "spacing":0,
          "tilecount":112,
          "tileheight":32,
@@ -653,11 +659,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -667,11 +668,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -681,11 +677,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -695,11 +686,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -709,11 +695,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -723,11 +704,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -737,11 +713,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -751,11 +722,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -765,11 +731,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -779,11 +740,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -793,11 +749,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -807,11 +758,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -821,11 +767,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -835,11 +776,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -849,11 +785,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -863,11 +794,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -877,11 +803,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -891,11 +812,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 },
             
@@ -906,11 +822,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -920,11 +831,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -934,11 +840,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -948,11 +849,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -962,11 +858,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -976,11 +867,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -990,11 +876,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -1004,11 +885,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -1018,11 +894,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -1032,11 +903,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -1046,11 +912,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }, 
                 {
@@ -1060,11 +921,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-goes-to-space"
                         }]
                 }],
          "tilewidth":32
@@ -1077,6 +933,12 @@
          "imagewidth":352,
          "margin":0,
          "name":"scifi_hackspace_frama",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"[LPC] FraMa sci-fi extensions\nhttps:\/\/opengameart.org\/content\/lpc-frama-sci-fi-extensions\nCC-BY-SA 4.0\nGPL 3.0\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio"
+                }],
          "spacing":0,
          "tilecount":99,
          "tileheight":32,
@@ -1192,11 +1054,6 @@
                          "name":"collides",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\n\nCopyright\/Attribution Notice: \nBased on work of Hyptosis, FunwithPixels and Skorpio\n\nhttps:\/\/opengameart.org\/content\/lpc-frama-sci-fi-extensions"
                         }]
                 }, 
                 {
@@ -1256,41 +1113,13 @@
          "name":"hakuna_matetee",
          "properties":[
                 {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"[LPC] Hakuna Matetee\nhttps:\/\/opengameart.org\/content\/lpc-hakuna-matetee\nCC-BY-SA 4.0\nGPL 3.0"
                 }],
          "spacing":0,
          "tilecount":21,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":14,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\\n\n\nhttps:\/\/opengameart.org\/content\/lpc-hakuna-matetee"
-                        }]
-                }, 
-                {
-                 "id":15,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\\n\n\nhttps:\/\/opengameart.org\/content\/lpc-hakuna-matetee"
-                        }]
-                }, 
-                {
-                 "id":16,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA 4.0\nGPL 3.0\\n\n\nhttps:\/\/opengameart.org\/content\/lpc-hakuna-matetee"
-                        }]
-                }],
          "tilewidth":32
         }, 
         {
@@ -1305,7 +1134,7 @@
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
-                 "value":"CC-BY-SA 4.0\nGPL 3.0\n\nhttps:\/\/opengameart.org\/content\/lpc-hakuna-matetee"
+                 "value":"[LPC] Hakuna Matetee\nhttps:\/\/opengameart.org\/content\/lpc-hakuna-matetee\nCC-BY-SA 4.0\nGPL 3.0"
                 }],
          "spacing":0,
          "tilecount":20,
@@ -1324,7 +1153,7 @@
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
-                 "value":"CC0\n\nhttps:\/\/git.cccv.de\/rc3\/world-tiles\/-\/tree\/master\/"
+                 "value":"RC3 World Tiles\nhttps:\/\/git.cccv.de\/rc3\/world-tiles\/-\/tree\/master\/\nCC0"
                 }],
          "spacing":0,
          "tilecount":91,
@@ -1339,6 +1168,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-neon-signs",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"RC3 World Tiles\nhttps:\/\/git.cccv.de\/rc3\/world-tiles\/-\/tree\/master\/\nCC0"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -1381,13 +1216,7 @@
                          "duration":50,
                          "tileid":116
                         }],
-                 "id":52,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC0\n\nhttps:\/\/git.cccv.de\/rc3\/world-tiles\/-\/tree\/master\/"
-                        }]
+                 "id":52
                 }],
          "tilewidth":32
         }],
