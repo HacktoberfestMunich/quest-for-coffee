@@ -1,0 +1,34 @@
+name: Check and deploy riddle solutions
+
+on:
+  push:
+    paths:
+      - 'solutions.yaml'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    container: ghcr.io/poeschl/docker-kotlin:1.6.0
+    steps:
+
+      - name: ↩️ Checkout
+        uses: actions/checkout@v2
+
+      - name: ⚙️ Verify answers
+        run: |
+          kotlinc -script scripts/SolutionComparator.main.kts
+          mkdir deploy
+          cp result.json deploy/
+
+      - name: 🚐 Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: deploy
+          target-folder: solutions
+          clean: false
