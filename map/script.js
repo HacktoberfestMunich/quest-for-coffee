@@ -9,10 +9,10 @@ function openDoor(name) {
 function checkForNewOpenDoors() {
 
   fetch('https://poeschl.github.io/space-riddles/solutions/result.json')
-    .then(res => res.json)
+    .then(res => res.json())
     .then(doorFlags => {
 
-      console.debug("Recieved door flags" + JSON.stringify(doorFlags))
+      console.debug("Recieved door flags " + JSON.stringify(doorFlags))
 
       for (const [door, open] of Object.entries(doorFlags)) {
         if (open) {
