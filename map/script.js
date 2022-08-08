@@ -1,6 +1,6 @@
 /* This script will check regulary for flags on solve puzzles. If flags are true the corresponding doors will open. */
 
-const UPDATE_INTERVAL = 30000 //in ms
+const UPDATE_INTERVAL = 10000 //in ms
 
 function openDoor(name) {
   WA.room.hideLayer("Doors/" + name);
