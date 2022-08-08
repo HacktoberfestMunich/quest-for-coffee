@@ -14,6 +14,9 @@ jobs:
     container: ghcr.io/poeschl/kotlin:1.6.0
     steps:
 
+      - name: 🏗️ Setup
+        run: apt-get update && apt-get install -y git rsync
+
       - name: ↩️ Checkout
         uses: actions/checkout@v2
 
