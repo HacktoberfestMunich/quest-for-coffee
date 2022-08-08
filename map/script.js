@@ -2,24 +2,24 @@
 
 const UPDATE_INTERVAL = 30000 //in ms
 
-function getDoorFlags() {
-  return {"riddle-0": true};
-}
-
 function openDoor(name) {
   WA.room.hideLayer("Doors/" + name);
 }
 
 function checkForNewOpenDoors() {
-  const doorFlags = getDoorFlags();
-  console.debug("Recieved door flags" + JSON.stringify(doorFlags))
 
-  for (const [door, open] of Object.entries(doorFlags)) {
-    if (open) {
-      openDoor(door)
-    }
-  }
+  fetch('https://poeschl.github.io/space-riddles/solutions/result.json')
+    .then(res => res.json)
+    .then(doorFlags => {
+
+      console.debug("Recieved door flags" + JSON.stringify(doorFlags))
+
+      for (const [door, open] of Object.entries(doorFlags)) {
+        if (open) {
+          openDoor(door)
+        }
+      }
+    });
 }
 
 setInterval(checkForNewOpenDoors, UPDATE_INTERVAL)
-setTimeout(checkForNewOpenDoors, 2000);
