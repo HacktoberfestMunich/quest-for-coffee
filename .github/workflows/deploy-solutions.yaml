@@ -22,6 +22,7 @@ jobs:
 
       - name: ⚙️ Verify answers
         run: |
+          export VALID_SOLUTION=${{ secrets.VALID_SOLUTION }}
           kotlinc -script scripts/SolutionComparator.main.kts
           mkdir deploy
           cp result.json deploy/
