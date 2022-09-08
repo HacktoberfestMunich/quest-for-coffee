@@ -1,14 +1,14 @@
-# Space Riddles (2022)
+# Quest for coffee (Hacktoberfest 2022)
 
-This is the source for the virtual riddle space for the Hacktoberfest 2022 event.
+This is the source for the virtual puzzle space for the Hacktoberfest 2022 event.
 The playground is a [workadventure space](https://play.workadventu.re/_/global/poeschl.github.io/space-riddles/map/Space-Riddles.json)
 
-In this room every participant will find questions in several rooms.
-Every solved riddle will open a door in the virtual space to new questsions.
+In this room every participant will find questions/quests in several rooms.
+Every solved task will open a door in the virtual space to new questsions.
 
 Your answers will be entered into the `solutions.yaml` file and pushed via Pull Requests.
 
-**While playing interaction with the `valid-solutions.yaml` is not allowed.**
+**While playing interaction with the `valid-solutions.yaml` file and the `riddles` folder is not allowed.**
 
 ## Setup Instructions
 
