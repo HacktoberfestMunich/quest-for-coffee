@@ -4,7 +4,7 @@
      "export":
         {
          "format":"json",
-         "target":"Space-Riddles.json"
+         "target":"quest-for-coffee.json"
         }
     },
  "height":29,
@@ -20,7 +20,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"space-riddle2022"
+                 "value":"quest-for-coffee2022"
                 }, 
                 {
                  "name":"openWebsiteClosable",
@@ -64,12 +64,12 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"space-riddle2022"
+                         "value":"quest-for-coffee2022"
                         }, 
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/poeschl.github.io\/space-riddles\/riddles\/riddle-0.html"
+                         "value":"https:\/\/poeschl.github.io\/quest-for-coffee\/riddles\/riddle-0.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -97,12 +97,12 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"space-riddle2022"
+                         "value":"quest-for-coffee2022"
                         }, 
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/poeschl.github.io\/space-riddles\/riddles\/riddle-1.html"
+                         "value":"https:\/\/poeschl.github.io\/quest-for-coffee\/riddles\/riddle-1.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -296,12 +296,12 @@
         {
          "name":"mapLink",
          "type":"string",
-         "value":"https:\/\/github.com\/HacktoberfestMunich\/space-riddles"
+         "value":"https:\/\/github.com\/HacktoberfestMunich\/quest-for-coffee"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Space-Riddles"
+         "value":"Quest for Coffee"
         }, 
         {
          "name":"script",

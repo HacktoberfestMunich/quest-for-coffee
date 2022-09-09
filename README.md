@@ -1,7 +1,7 @@
 # Quest for coffee (Hacktoberfest 2022)
 
 This is the source for the virtual puzzle space for the Hacktoberfest 2022 event.
-The playground is a [workadventure space](https://play.workadventu.re/_/global/poeschl.github.io/space-riddles/map/Space-Riddles.json)
+The playground is a [workadventure space](https://play.workadventu.re/_/global/poeschl.github.io/quest-for-coffee/map/quest-for-coffee.json)
 
 In this room every participant will find questions/quests in several rooms.
 Every solved task will open a door in the virtual space to new questsions.

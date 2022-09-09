@@ -8,7 +8,7 @@ function openDoor(name) {
 
 function checkForNewOpenDoors() {
 
-  fetch('https://poeschl.github.io/space-riddles/solutions/result.json')
+  fetch('https://poeschl.github.io/quest-for-coffee/solutions/result.json')
     .then(res => res.json())
     .then(doorFlags => {
 

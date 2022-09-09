@@ -5,8 +5,8 @@
  </editorsettings>
  <properties>
   <property name="mapCopyright" value="MIT License - Copyright (c) 2022 HacktoberfestMunich Team"/>
-  <property name="mapLink" value="https://github.com/HacktoberfestMunich/space-riddles"/>
-  <property name="mapName" value="Space-Riddles"/>
+  <property name="mapLink" value="https://github.com/HacktoberfestMunich/quest-for-coffee"/>
+  <property name="mapName" value="Quest for Coffee"/>
   <property name="script" value="script.js"/>
  </properties>
  <tileset firstgid="1" name="scifi_space_rpg_tiles_lpcized" tilewidth="32" tileheight="32" tilecount="112" columns="14">
@@ -491,7 +491,7 @@ GPL 3.0</property>
  </tileset>
  <layer id="18" name="Jitsi" width="33" height="29">
   <properties>
-   <property name="jitsiRoom" value="space-riddle2022"/>
+   <property name="jitsiRoom" value="quest-for-coffee2022"/>
    <property name="openWebsiteClosable" type="bool" value="false"/>
   </properties>
   <data encoding="csv">
@@ -565,8 +565,8 @@ GPL 3.0</property>
  <group id="20" name="Riddle-Pages">
   <layer id="19" name="riddle-0" width="33" height="29">
    <properties>
-    <property name="jitsiRoom" value="space-riddle2022"/>
-    <property name="openWebsite" value="https://poeschl.github.io/space-riddles/riddles/riddle-0.html"/>
+    <property name="jitsiRoom" value="quest-for-coffee2022"/>
+    <property name="openWebsite" value="https://poeschl.github.io/quest-for-coffee/riddles/riddle-0.html"/>
     <property name="openWebsiteTrigger" value="onaction"/>
     <property name="openWebsiteTriggerMessage" value="(Mit Leertaste) Das erste Rätsel öffnen"/>
    </properties>
@@ -604,8 +604,8 @@ GPL 3.0</property>
   </layer>
   <layer id="25" name="riddle-1" width="33" height="29">
    <properties>
-    <property name="jitsiRoom" value="space-riddle2022"/>
-    <property name="openWebsite" value="https://poeschl.github.io/space-riddles/riddles/riddle-1.html"/>
+    <property name="jitsiRoom" value="quest-for-coffee2022"/>
+    <property name="openWebsite" value="https://poeschl.github.io/quest-for-coffee/riddles/riddle-1.html"/>
     <property name="openWebsiteTrigger" value="onaction"/>
     <property name="openWebsiteTriggerMessage" value="Das nächste Rätsel öffnen"/>
    </properties>

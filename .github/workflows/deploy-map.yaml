@@ -21,7 +21,7 @@ jobs:
       - name: 📦 Package deployment
         run: |
           mkdir deploy
-          cp map/Space-Riddles.json deploy/
+          cp map/quest-for-coffee.json deploy/
           cp map/script.js deploy/
           cp -R map/assets deploy/
           ls -al deploy
