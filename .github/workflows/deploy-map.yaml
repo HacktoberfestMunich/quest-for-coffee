@@ -28,6 +28,8 @@ jobs:
 
       - name: ⚙️ Optimize map
         uses: thecodingmachine/map-optimizer-action@master
+        with:
+          map-file: map/quest-for-coffee.json
 
       - name: 📦 Package deployment
         run: |
