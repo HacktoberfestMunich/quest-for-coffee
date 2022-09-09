@@ -15,6 +15,17 @@ jobs:
       - name: ↩️ Checkout
         uses: actions/checkout@v2
 
+      - name: 🏗️ Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: 🏗️ Install packages
+        run: cd map && npm ci
+
+      - name: ⚙️ Pack Scripts
+        run: cd map && npm run build
+
       - name: ⚙️ Optimize map
         uses: thecodingmachine/map-optimizer-action@master
 
@@ -22,7 +33,7 @@ jobs:
         run: |
           mkdir deploy
           cp map/quest-for-coffee.json deploy/
-          cp map/script.js deploy/
+          cp map/dist/* deploy/
           cp -R map/assets deploy/
           ls -al deploy
 

@@ -4,7 +4,7 @@
      "export":
         {
          "format":"json",
-         "target":"quest-for-coffee.json"
+         "target":"Space-Riddles.json"
         }
     },
  "height":29,
@@ -306,7 +306,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script.js"
+         "value":"quest-for-coffee.iife.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

@@ -1,3 +1,5 @@
 .idea
 .vscode
 solutions-env.yaml
+map/node_modules
+map/dist

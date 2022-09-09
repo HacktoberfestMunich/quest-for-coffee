@@ -7,7 +7,7 @@
   <property name="mapCopyright" value="MIT License - Copyright (c) 2022 HacktoberfestMunich Team"/>
   <property name="mapLink" value="https://github.com/HacktoberfestMunich/quest-for-coffee"/>
   <property name="mapName" value="Quest for Coffee"/>
-  <property name="script" value="script.js"/>
+  <property name="script" value="quest-for-coffee.iife.js"/>
  </properties>
  <tileset firstgid="1" name="scifi_space_rpg_tiles_lpcized" tilewidth="32" tileheight="32" tilecount="112" columns="14">
   <properties>
