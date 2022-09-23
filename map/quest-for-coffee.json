@@ -17,11 +17,6 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jitsiRoom",
-                 "type":"string",
-                 "value":""
-                }, 
-                {
                  "name":"jitsiWidth",
                  "type":"int",
                  "value":20
