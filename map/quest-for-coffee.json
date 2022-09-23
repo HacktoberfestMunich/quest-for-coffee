@@ -88,7 +88,7 @@
                  "y":3552
                 }, 
                 {
-                 "height":161.333333333333,
+                 "height":224.666666666666,
                  "id":7,
                  "name":"coffee-corner",
                  "properties":[
@@ -100,14 +100,14 @@
                         {
                          "name":"zoom_margin",
                          "type":"float",
-                         "value":0.25
+                         "value":0.5
                         }],
                  "rotation":0,
                  "type":"area",
                  "visible":true,
                  "width":321.333333333334,
                  "x":2240,
-                 "y":4000
+                 "y":3936.66666666667
                 }, 
                 {
                  "height":324,
