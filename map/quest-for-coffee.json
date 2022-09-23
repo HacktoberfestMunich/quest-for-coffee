@@ -91,6 +91,50 @@
                  "width":1021.33333333333,
                  "x":1984,
                  "y":3552
+                }, 
+                {
+                 "height":161.333333333333,
+                 "id":7,
+                 "name":"coffee-corner",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":0.25
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":321.333333333334,
+                 "x":2240,
+                 "y":4000
+                }, 
+                {
+                 "height":324,
+                 "id":8,
+                 "name":"caesar",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":0.25
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":320,
+                 "x":1921.33333333333,
+                 "y":2877.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -398,7 +442,7 @@
          "y":0
         }],
  "nextlayerid":35,
- "nextobjectid":7,
+ "nextobjectid":9,
  "orientation":"orthogonal",
  "properties":[
         {
