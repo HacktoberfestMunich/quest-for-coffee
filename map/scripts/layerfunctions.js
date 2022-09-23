@@ -22,9 +22,8 @@ function emptyCoffee() {
 }
 
 function initLayersFunctions() {
-  WA.room.onEnterLayer(NO_MATE_LAYER).subscribe(() => emptyMate);
-
-  WA.room.onEnterLayer(NO_COFFE_LAYER).subscribe(() => emptyCoffee);
+  WA.room.onEnterLayer(NO_MATE_LAYER).subscribe(() => { emptyMate(); });
+  WA.room.onEnterLayer(NO_COFFE_LAYER).subscribe(() => { emptyCoffee(); });
 }
 
 export { initLayersFunctions };
