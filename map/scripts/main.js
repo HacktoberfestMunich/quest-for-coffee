@@ -2,6 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { initMapFeatures } from "./init-map";
+import { initLayersFunctions } from "./layerfunctions";
 import { initRoomUpdates } from "./roomupdates";
 
 WA.onInit().then(() => {
@@ -13,4 +14,5 @@ WA.onInit().then(() => {
 
   initMapFeatures();
   initRoomUpdates();
+  initLayersFunctions();
 });

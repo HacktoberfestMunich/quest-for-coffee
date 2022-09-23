@@ -1,3 +1,4 @@
+import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -8,7 +9,7 @@ export default defineConfig({
     assetsDir: '',
     sourcemap: true,
     lib: {
-      entry: 'scripts/main.js',
+      entry: resolve(__dirname, 'scripts/main.js'),
       formats: ['iife'],
       name: 'QuestForCoffee',
       fileName: 'quest-for-coffee'
