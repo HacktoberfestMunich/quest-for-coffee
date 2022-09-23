@@ -1,5 +1,3 @@
-const BACKGROUND_SOUND = "";
-
 function createNonTalkativeZone() {
   WA.controls.disableWebcam();
   WA.controls.disableMicrophone();

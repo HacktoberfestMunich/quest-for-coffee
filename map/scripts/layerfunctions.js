@@ -1,15 +1,17 @@
 const NO_MATE_LAYER = 'noMate';
 const NO_COFFE_LAYER = 'noCoffee';
 
+let shownActionMessage
+
 function emptyMate() {
-  const emptyMateMessage = WA.ui.displayActionMessage({
+  shownActionMessage = WA.ui.displayActionMessage({
     message: "Kein Mate verfügbar"
   });
   console.debug("Show Mate")
 }
 
 function emptyCoffee() {
-  const emptyCoffeeMessage = WA.ui.displayActionMessage({
+  shownActionMessage = WA.ui.displayActionMessage({
     message: "Kein Kaffee verfügbar, nur noch koffeinfrei...."
   });
 }
