@@ -19,7 +19,12 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"quest-for-coffee2022"
+                 "value":""
+                }, 
+                {
+                 "name":"jitsiWidth",
+                 "type":"int",
+                 "value":20
                 }, 
                 {
                  "name":"openWebsiteClosable",
@@ -27,7 +32,7 @@
                  "value":false
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":95,
          "x":0,
          "y":0
