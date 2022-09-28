@@ -8,10 +8,11 @@ function openArea(name) {
   WA.room.hideLayer("RiddleLayerHidesTransparency/" + name);
 }
 
-async function findLayer(riddleId) {
+async function findLayerGroup(riddleId) {
   const layerNames = await getLayersMap();
-  const layer = Array.from(layerNames.keys()).filter(layer => layer.startsWith("Doors/" + riddleId));
-  console.debug("Get layer " + layer + " for id " + riddleId);
+  const layerPath = await Array.from(layerNames.keys()).filter(layer => layer.startsWith("Doors/" + riddleId))[0];
+  const layer = layerPath.split('/')[1]
+  console.debug("Get layer group " + layer + " for id " + riddleId);
   return layer;
 }
 
@@ -25,7 +26,7 @@ function checkForNewOpenDoors() {
 
       for (const [riddleId, open] of Object.entries(doorFlags)) {
         if (open) {
-          openArea(findLayer(riddleId));
+          openArea(findLayerGroup(riddleId));
         }
       }
     });
