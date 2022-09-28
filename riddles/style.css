@@ -983,5 +983,12 @@ main .key {
   font-size: 1em;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  color: #d9d9d9;
+}
+
+main .key:before {
+  content: "Solution Line:";
+  display: block;
+  color: #969696;
+  margin-bottom: 0.24em;
 }
