@@ -1,8 +1,18 @@
+import { getLayersMap } from '@workadventure/scripting-api-extra';
+
 const UPDATE_INTERVAL = 1000 //in ms
 const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json'
 
 function openArea(name) {
   WA.room.hideLayer("Doors/" + name);
+  WA.room.hideLayer("RiddleLayerHidesTransparency/" + name);
+}
+
+async function findLayer(riddleId) {
+  const layerNames = await getLayersMap();
+  const layer = Array.from(layerNames.keys()).filter(layer => layer.startsWith("Doors/" + riddleId));
+  console.debug("Get layer " + layer + " for id " + riddleId);
+  return layer;
 }
 
 function checkForNewOpenDoors() {
@@ -13,9 +23,9 @@ function checkForNewOpenDoors() {
 
       console.debug("Recieved door flags " + JSON.stringify(doorFlags));
 
-      for (const [door, open] of Object.entries(doorFlags)) {
+      for (const [riddleId, open] of Object.entries(doorFlags)) {
         if (open) {
-          openArea(door);
+          openArea(findLayer(riddleId));
         }
       }
     });
