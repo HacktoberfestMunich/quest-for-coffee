@@ -973,3 +973,15 @@ html {
   border-width: 1px !important;
   border: #44475a;
 }
+
+main .key {
+  background-color: #464646;
+  border-radius: 3px;
+  margin: 1em;
+  padding: .2em .4em;
+  font-family: monospace,monospace;
+  font-size: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
