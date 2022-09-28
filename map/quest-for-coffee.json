@@ -10603,6 +10603,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"2D Space Station Tile Set Assets",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"2D Space Station\nhttps:\/\/thepixelistcreator.itch.io\/2d-space-station-tile-set-and-assets\nFree Use"
+                }],
          "spacing":0,
          "tilecount":384,
          "tileheight":32,
