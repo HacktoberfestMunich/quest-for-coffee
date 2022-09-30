@@ -19,7 +19,7 @@ jobs:
         run: apt-get update && apt-get install -y git rsync
 
       - name: ↩️ Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: ⚙️ Verify answers
         run: |
