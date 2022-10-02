@@ -10,7 +10,7 @@ function openArea(name) {
 
 async function findLayerGroup(riddleId) {
   const layerNames = await getLayersMap();
-  const layerPath = await Array.from(layerNames.keys()).filter(layer => layer.startsWith("Doors/" + riddleId))[0];
+  const layerPath = Array.from(layerNames.keys()).filter(layer => layer.startsWith("Doors/" + riddleId))[0];
   const layer = layerPath.split('/')[1]
   console.debug("Get layer group " + layer + " for id " + riddleId);
   return layer;
@@ -20,13 +20,13 @@ function checkForNewOpenDoors() {
 
   fetch(RESULT_FILE)
     .then(res => res.json())
-    .then(doorFlags => {
+    .then(async doorFlags => {
 
       console.debug("Recieved door flags " + JSON.stringify(doorFlags));
 
       for (const [riddleId, open] of Object.entries(doorFlags)) {
         if (open) {
-          openArea(findLayerGroup(riddleId));
+          openArea(await findLayerGroup(riddleId));
         }
       }
     });
