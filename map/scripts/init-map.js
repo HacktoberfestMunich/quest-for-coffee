@@ -4,8 +4,8 @@ function createNonTalkativeZone() {
   WA.controls.disablePlayerProximityMeeting();
 }
 
-function initMapFeatures() {
+function init() {
   createNonTalkativeZone();
 }
 
-export { initMapFeatures };
+export { init };

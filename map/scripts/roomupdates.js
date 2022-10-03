@@ -23,7 +23,6 @@ function checkForNewOpenDoors() {
     .then(async doorFlags => {
 
       console.debug("Recieved door flags " + JSON.stringify(doorFlags));
-
       for (const [riddleId, open] of Object.entries(doorFlags)) {
         if (open) {
           openArea(await findLayerGroup(riddleId));
@@ -32,9 +31,9 @@ function checkForNewOpenDoors() {
     });
 }
 
-function initRoomUpdates() {
+function init() {
   checkForNewOpenDoors();
   setInterval(checkForNewOpenDoors, UPDATE_INTERVAL);
 }
 
-export { initRoomUpdates };
+export { init };
