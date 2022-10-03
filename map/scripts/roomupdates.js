@@ -1,7 +1,9 @@
 import { getLayersMap } from '@workadventure/scripting-api-extra';
+import { compareArrays } from './utils';
 
-const UPDATE_INTERVAL = 1000 //in ms
-const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json'
+const UPDATE_INTERVAL = 1000; //in ms
+const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json';
+let LAST_RECIEVED_FLAGS = [];
 
 function openArea(name) {
   WA.room.hideLayer("Doors/" + name);
@@ -21,11 +23,15 @@ function checkForNewOpenDoors() {
   fetch(RESULT_FILE)
     .then(res => res.json())
     .then(async doorFlags => {
+      const recievedFlags = Object.values(doorFlags);
+      if (!compareArrays(recievedFlags, LAST_RECIEVED_FLAGS)) {
+        LAST_RECIEVED_FLAGS = recievedFlags;
 
-      console.debug("Recieved door flags " + JSON.stringify(doorFlags));
-      for (const [riddleId, open] of Object.entries(doorFlags)) {
-        if (open) {
-          openArea(await findLayerGroup(riddleId));
+        console.debug("Recieved new door flags " + JSON.stringify(doorFlags));
+        for (const [riddleId, open] of Object.entries(doorFlags)) {
+          if (open) {
+            openArea(await findLayerGroup(riddleId));
+          }
         }
       }
     });
