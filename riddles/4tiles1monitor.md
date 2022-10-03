@@ -1,4 +1,4 @@
-# 4 Tiles, 1 Monitor
+# Tiles and a Monitor
 
 A voice rings out of a hidden speaker:
 
@@ -10,7 +10,7 @@ Please remain calm and take in your positions, beginning with the first particip
 The team leader is required to check the monitoring system to read the key upon correct positioning. Reading the wrong key is strictly prohibited!
 ```
 
-Enter the answer after `2:`.
+What is the key?
 
 <div class="key">
 2: ""
