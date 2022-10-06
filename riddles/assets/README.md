@@ -69,7 +69,7 @@ will not (i) exercise any of his or her remaining Copyright and Related Rights i
 of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
 </p>
 <p>
-4. Limitations and Disclaimers.
+<b>4. Limitations and Disclaimers.</b>
 
 <ol>
 <li value="a.">No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this
