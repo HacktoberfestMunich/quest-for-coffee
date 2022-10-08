@@ -1,12 +1,157 @@
 # Battleships
 
-A voice rings out of a hidden speaker:
+An open manual lies next to the display, describing an outdated targeting system which is nontheless installed into this ship. The display
+shows the following image:
 
-```markdown
-The [FIXME: crazy name] makes target aquisition easier than ever before! Mark the desired target and watch your troubles disappear in Real-Time(t)!
-```
+<table>
+<tbody>
+  <tr>
+    <td>X</td>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+    <td>G</td>
+    <td>H</td>
+    <td>I</td>
+    <td>J</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>x</td>
+    <td>o</td>
+    <td>x</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>o</td>
+    <td>x</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>o</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>x</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+    <td>x</td>
+    <td>o</td>
+    <td>o</td>
+    <td>o</td>
+    <td>x</td>
+    <td>o</td>
+  </tr>
+</tbody>
+</table>
 
-Enter the answer after `5:`.
+Enter the target coordinate after `5:`.
 
 <div class="key">
 5: ""

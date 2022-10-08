@@ -7,8 +7,8 @@ In one terminal to your right you also notice a blinking cursor: `Count:` and a 
 
 ![/mnt/drone_1338_discovery/Recording/Q0432_VDiv_Eye.mp4](https://www.youtube.com/watch?v=5ZC5rHMvkwo)
 
-Insert this code into the solution file to proceed.
+Input your value after `15:`.
 
 <div class="key">
-14e: ""
+15: ""
 </div>
