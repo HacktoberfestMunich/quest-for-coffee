@@ -4,6 +4,7 @@ import { compareArrays } from './utils';
 const UPDATE_INTERVAL = 1000; //in ms
 const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json';
 let LAST_RECIEVED_FLAGS = [];
+let ROOM_SUBSCRIPTIONS = {}
 
 function openArea(name) {
   WA.room.hideLayer("Doors/" + name);
@@ -31,10 +32,19 @@ function checkForNewOpenDoors() {
         for (const [riddleId, open] of Object.entries(doorFlags)) {
           if (open) {
             openArea(await findLayerGroup(riddleId));
+            executeSubscriptionActions(riddleId)
           }
         }
       }
     });
+}
+
+function executeSubscriptionActions(riddleId){
+  ROOM_SUBSCRIPTIONS[roomId]();
+}
+
+function registerRiddleSubscription(riddleId, onSolveCallback) {
+  ROOM_SUBSCRIPTIONS[roomId] = onSolveCallback;
 }
 
 function init() {
@@ -42,4 +52,4 @@ function init() {
   setInterval(checkForNewOpenDoors, UPDATE_INTERVAL);
 }
 
-export { init };
+export { init, registerRiddleSubscription };
