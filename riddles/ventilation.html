@@ -1093,7 +1093,48 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 			
 		</nav>
 		<main>
-			
+			<h1 id="smelly-life-support" tabindex="-1"><a class="anchor" href="#smelly-life-support" aria-hidden="true"><span class="octicon octicon-link"></span></a> Smelly Life Support</h1>
+<p>As you enter the Life Support deck, you notice the stale smell in the air. The automated filtration system seems to have hit some kind of
+barrier, and the smell is worse next to some papers that are continuously being sucked in, parsed and thrown out again. One of the displays
+throws a neon-ridden error message:</p>
+<blockquote>
+<p>Too much smell! Cannot be parsed automatically! Provide line information in format <first-line>:<last-line> to provide information.
+Use comma separation for multiple entries.</last-line></first-line></p>
+</blockquote>
+<pre><code class="language-py"><span class="hljs-comment"># Draft: overwrite the granola injector to parmeggianeer the main engine</span>
+
+<span class="hljs-keyword">from</span> typing <span class="hljs-keyword">import</span> <span class="hljs-type">Any</span>
+<span class="hljs-keyword">from</span> ship <span class="hljs-keyword">import</span> Engine
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">overwriteGranolaInjector</span>(<span class="hljs-params">
+    engine: <span class="hljs-type">Any</span>, <span class="hljs-comment"># Should run with any engine</span>
+    overwrite_granola: <span class="hljs-built_in">bool</span> <span class="hljs-comment"># This parameter controls if the granola overwrite should be triggered</span>
+    </span>) -&gt; <span class="hljs-built_in">bool</span>:</span>
+    overwrite_granola = <span class="hljs-literal">True</span>
+    <span class="hljs-keyword">if</span> overwrite_granola:
+        engine.setSkipGranolaInfection(<span class="hljs-literal">True</span>)
+        <span class="hljs-keyword">if</span> engine.getEnergyStats().getCheeseFactor() &gt; <span class="hljs-number">90</span>:
+            engine.getSubModule(<span class="hljs-string">"ParmeggianitorModule"</span>).getEmergencyInjector().initializeParmeggianitorization(needsVerification=<span class="hljs-literal">False</span>)
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span> <span class="hljs-comment"># Everything worked!</span>
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">deglazeEnergyCoupler</span>(<span class="hljs-params">engine: <span class="hljs-type">Any</span>, fast_mode: <span class="hljs-built_in">bool</span> = <span class="hljs-literal">True</span></span>) -&gt; <span class="hljs-literal">None</span>:</span>
+    <span class="hljs-keyword">if</span> fast_mode:
+        retval = engine.triggerCentralizedDeglazing() <span class="hljs-comment"># triggerCentralizedDeglazing returns True on success</span>
+        <span class="hljs-keyword">return</span> retval
+    <span class="hljs-keyword">else</span>:
+        engine.prepareForDeglazing()
+        <span class="hljs-keyword">if</span> engine.preparationComplete():
+            engine.startDeglazing()
+            <span class="hljs-keyword">return</span> engine.deglazingComplete()
+                
+        <span class="hljs-keyword">else</span>:
+            <span class="hljs-keyword">return</span> deglazeEnergyCoupler(engine=engine, fast_mode=<span class="hljs-literal">True</span>)
+</code></pre>
+<p>Input the formatted list of smells after <code>10:</code>.</p>
+<div class="key">
+10: ""
+</div>
+
 		</main>
 	</body>
 </html>
