@@ -26,25 +26,12 @@ jobs:
       - name: ⚙️ Pack Scripts
         run: cd map && npm run build
 
-      - name: ⚙️ Optimize map
-        uses: thecodingmachine/map-optimizer-action@master
-        with:
-          map-file: map/quest-for-coffee.json
-
-      - name: 📦 Package deployment
-        run: |
-          mkdir deploy
-          cp map/quest-for-coffee.json deploy/
-          cp map/dist/* deploy/
-          cp -R map/assets deploy/
-          ls -al deploy
-
       - name: 🚐 Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         if: github.ref == 'refs/heads/main'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
-          folder: deploy
+          folder: map/dist
           target-folder: map
           clean: "false"
