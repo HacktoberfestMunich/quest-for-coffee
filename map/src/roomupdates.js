@@ -4,7 +4,7 @@ import { compareArrays } from './utils';
 const UPDATE_INTERVAL = 1000; //in ms
 const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json';
 let LAST_RECIEVED_FLAGS = [];
-let ROOM_SUBSCRIPTIONS = {}
+let ROOM_SUBSCRIPTIONS = new Map();
 
 function openArea(name) {
   WA.room.hideLayer("Doors/" + name);
@@ -39,12 +39,15 @@ function checkForNewOpenDoors() {
     });
 }
 
-function executeSubscriptionActions(riddleId){
-  ROOM_SUBSCRIPTIONS[roomId]();
+function executeSubscriptionActions(riddleId) {
+  const callback = ROOM_SUBSCRIPTIONS.get(riddleId);
+  if (callback != undefined) {
+    callback();
+  }
 }
 
 function registerRiddleSubscription(riddleId, onSolveCallback) {
-  ROOM_SUBSCRIPTIONS[roomId] = onSolveCallback;
+  ROOM_SUBSCRIPTIONS.set(riddleId, onSolveCallback);
 }
 
 function init() {

@@ -1,5 +1,6 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { init as init4tiles1monitor } from "./4tiles1monitor";
+import { init as initUnicorns } from "./howmanyunicorns";
 import { init as initLayersFunctions } from "./layerfunctions";
 import { init as initRoomUpdates } from "./roomupdates";
 
@@ -18,4 +19,5 @@ WA.onInit().then(() => {
   initRoomUpdates();
   initLayersFunctions();
   init4tiles1monitor();
+  initUnicorns();
 });
