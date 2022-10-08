@@ -3,6 +3,7 @@ import { compareArrays } from './utils';
 
 const UPDATE_INTERVAL = 1000; //in ms
 const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json';
+const OPEN_ALL = false;
 let LAST_RECIEVED_FLAGS = [];
 let ROOM_SUBSCRIPTIONS = new Map();
 
@@ -53,6 +54,11 @@ function registerRiddleSubscription(riddleId, onSolveCallback) {
 function init() {
   checkForNewOpenDoors();
   setInterval(checkForNewOpenDoors, UPDATE_INTERVAL);
+
+  if(OPEN_ALL) {
+    WA.room.hideLayer("Doors");
+    WA.room.hideLayer("RiddleLayerHidesTransparency");
+  }
 }
 
 export { init, registerRiddleSubscription };
