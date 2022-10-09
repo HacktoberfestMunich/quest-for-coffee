@@ -1,0 +1,50 @@
+name: Update PR statistics
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - closed
+  workflow_dispatch:
+
+env:
+  REPOSITORY: Poeschl/quest-for-coffee
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container: badouralix/curl-jq:alpine
+    steps:
+      - name: 🏗️ Setup
+        run: apk add --no-cache git rsync
+
+      - name: ↩️ Checkout
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Get PR infos
+        run: |
+          curl \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -o raw-pr-data.json \
+          "https://api.github.com/repos/${REPOSITORY}/pulls?state=closed&base=main&per_page=100&sort=updated"
+      
+      - name: ⚙️ Process PR infos
+        
+        run: |
+          mkdir deploy && \
+          cat raw-pr-data.json | \
+          jq "map(select(.merged_at | length >= 1) | {id: .number, title: .title, contributor: .user.login}) | group_by(.contributor) | map( {contributor: .[0].contributor, count: . | length})" \
+          > deploy/pr-data.json &&\
+          cat deploy/pr-data.json
+
+      - name: 🚐 Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: deploy
+          target-folder: solutions
+          clean: false
