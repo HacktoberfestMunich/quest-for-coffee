@@ -10,6 +10,10 @@ export default defineConfig({
         index: "./index.html",
         ...getMapsScripts(),
       },
+      output: {
+        entryFileNames: "assets/[name].js",
+        chunkFileNames: "assets/[name].js",
+      },
     },
   },
   plugins: [...getMapsOptimizers(), basicSsl()],
