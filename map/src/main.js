@@ -4,6 +4,7 @@ import { init as initUnicorns } from "./howmanyunicorns";
 import { init as initLayersFunctions } from "./layerfunctions";
 import { init as initRoomUpdates } from "./roomupdates";
 import { init as initPullrequest } from "./pullrequests";
+import { init as initColors } from "./4colors";
 
 WA.onInit().then(() => {
   console.log('WorkAdventure API Extra ready');
@@ -22,4 +23,5 @@ WA.onInit().then(() => {
   init4tiles1monitor();
   initUnicorns();
   initPullrequest();
+  initColors();
 });
