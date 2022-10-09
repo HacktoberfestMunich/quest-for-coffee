@@ -5,6 +5,7 @@ import { init as initLayersFunctions } from "./layerfunctions";
 import { init as initRoomUpdates } from "./roomupdates";
 import { init as initPullrequest } from "./pullrequests";
 import { init as initColors } from "./4colors";
+import { init as initAutoMovement } from "./automovement";
 
 WA.onInit().then(() => {
   console.log('WorkAdventure API Extra ready');
@@ -24,4 +25,5 @@ WA.onInit().then(() => {
   initUnicorns();
   initPullrequest();
   initColors();
+  initAutoMovement();
 });
