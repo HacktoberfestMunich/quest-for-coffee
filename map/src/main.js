@@ -3,6 +3,7 @@ import { init as init4tiles1monitor } from "./4tiles1monitor";
 import { init as initUnicorns } from "./howmanyunicorns";
 import { init as initLayersFunctions } from "./layerfunctions";
 import { init as initRoomUpdates } from "./roomupdates";
+import { init as initPullrequest } from "./pullrequests";
 
 WA.onInit().then(() => {
   console.log('WorkAdventure API Extra ready');
@@ -20,4 +21,5 @@ WA.onInit().then(() => {
   initLayersFunctions();
   init4tiles1monitor();
   initUnicorns();
+  initPullrequest();
 });
