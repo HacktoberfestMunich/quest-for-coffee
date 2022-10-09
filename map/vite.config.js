@@ -11,8 +11,8 @@ export default defineConfig({
         ...getMapsScripts(),
       },
       output: {
-        entryFileNames: "assets/[name].js",
-        chunkFileNames: "assets/[name].js",
+        entryFileNames: "assets/[name].static.js",
+        chunkFileNames: "assets/[name].static.js",
       },
     },
   },
