@@ -1098,10 +1098,11 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 <blockquote>
 <p><code>[mct@iotornie &lt;2022-10-21 20:00&gt;] &gt; date -s</code></p>
 </blockquote>
-<p>Above the terminal are two clocks. The right one seems broken, it does not move.</p>
+<p>Above the terminal are two clocks. The right one seems fixed, its clock hands don't move at all. Both doors are linked to a door on the left.
+This particular door system is notorious for using the equality operator
+between a reference clock and a real-time clock instead of checking if the time is in range.</p>
 <details><summary>Task</summary>
-To proceed, set the system time so that the doorlock is released. This particular door system is notorious for using the equality operator
-instead of checking if the time is in range. Finish the command shown above after `12:`.
+To proceed, set the system time so that the doorlock is released. Finish the command shown above after `12:`.
 </details>
 <div class="key">
 12: ""

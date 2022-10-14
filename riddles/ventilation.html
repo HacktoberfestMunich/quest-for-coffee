@@ -1098,39 +1098,39 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 barrier, and the smell is worse next to some papers that are continuously being sucked in, parsed and thrown out again. One of the displays
 throws a neon-ridden error message:</p>
 <blockquote>
-<p>Too much smell! Cannot be parsed automatically! Provide line information in format <first-line>:<last-line> to provide information.
-Use comma separation for multiple entries.</last-line></first-line></p>
+<p>Too much smell! Cannot be parsed automatically! Provide line indices to mark smelly sources.
+Use comma separation for multiple entries.</p>
 </blockquote>
-<pre><code class="language-py"><span class="hljs-comment"># Draft: overwrite the granola injector to parmeggianeer the main engine</span>
-
-<span class="hljs-keyword">from</span> typing <span class="hljs-keyword">import</span> <span class="hljs-type">Any</span>
-<span class="hljs-keyword">from</span> ship <span class="hljs-keyword">import</span> Engine
-
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">overwriteGranolaInjector</span>(<span class="hljs-params">
-    engine: <span class="hljs-type">Any</span>, <span class="hljs-comment"># Should run with any engine</span>
-    overwrite_granola: <span class="hljs-built_in">bool</span> <span class="hljs-comment"># This parameter controls if the granola overwrite should be triggered</span>
-    </span>) -&gt; <span class="hljs-built_in">bool</span>:</span>
-    overwrite_granola = <span class="hljs-literal">True</span>
-    <span class="hljs-keyword">if</span> overwrite_granola:
-        engine.setSkipGranolaInfection(<span class="hljs-literal">True</span>)
-        <span class="hljs-keyword">if</span> engine.getEnergyStats().getCheeseFactor() &gt; <span class="hljs-number">90</span>:
-            engine.getSubModule(<span class="hljs-string">"ParmeggianitorModule"</span>).getEmergencyInjector().initializeParmeggianitorization(needsVerification=<span class="hljs-literal">False</span>)
-    <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span> <span class="hljs-comment"># Everything worked!</span>
-
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">deglazeEnergyCoupler</span>(<span class="hljs-params">engine: <span class="hljs-type">Any</span>, fast_mode: <span class="hljs-built_in">bool</span> = <span class="hljs-literal">True</span></span>) -&gt; <span class="hljs-literal">None</span>:</span>
-    <span class="hljs-keyword">if</span> fast_mode:
-        retval = engine.triggerCentralizedDeglazing() <span class="hljs-comment"># triggerCentralizedDeglazing returns True on success</span>
-        <span class="hljs-keyword">return</span> retval
-    <span class="hljs-keyword">else</span>:
-        engine.prepareForDeglazing()
-        <span class="hljs-keyword">if</span> engine.preparationComplete():
-            engine.startDeglazing()
-            <span class="hljs-keyword">return</span> engine.deglazingComplete()
-                
-        <span class="hljs-keyword">else</span>:
-            <span class="hljs-keyword">return</span> deglazeEnergyCoupler(engine=engine, fast_mode=<span class="hljs-literal">True</span>)
+<pre><code class="language-py"> <span class="hljs-number">0</span> <span class="hljs-comment"># Draft: overwrite the granola injector to parmeggianeer the main engine</span>
+ <span class="hljs-number">1</span> 
+ <span class="hljs-number">2</span> <span class="hljs-keyword">from</span> typing <span class="hljs-keyword">import</span> <span class="hljs-type">Any</span>
+ <span class="hljs-number">3</span> <span class="hljs-keyword">from</span> ship <span class="hljs-keyword">import</span> Engine
+ <span class="hljs-number">4</span> 
+ <span class="hljs-number">5</span> <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">overwriteGranolaInjector</span>(<span class="hljs-params">
+ <span class="hljs-number">6</span>     engine: <span class="hljs-type">Any</span>, <span class="hljs-comment"># Should run with any engine</span>
+ <span class="hljs-number">7</span>     overwrite_granola: <span class="hljs-built_in">bool</span> <span class="hljs-comment"># This parameter controls if the granola  overwrite should be triggered</span>
+ <span class="hljs-number">8</span>     </span>) -&gt; <span class="hljs-built_in">bool</span>:</span>
+ <span class="hljs-number">9</span>     overwrite_granola = <span class="hljs-literal">True</span>
+<span class="hljs-number">10</span>    <span class="hljs-keyword">if</span> overwrite_granola:
+<span class="hljs-number">11</span>         engine.setSkipGranolaInfection(<span class="hljs-literal">True</span>)
+<span class="hljs-number">12</span>         <span class="hljs-keyword">if</span> engine.getEnergyStats().getCheeseFactor() &gt; <span class="hljs-number">90</span>:
+<span class="hljs-number">13</span>             engine.getSubModule(<span class="hljs-string">"ParmeggianitorModule"</span>).getEmergencyInjector().initializeParmeggianitorization(needsVerification=<span class="hljs-literal">False</span>)
+<span class="hljs-number">14</span>     <span class="hljs-keyword">return</span> <span class="hljs-literal">True</span> <span class="hljs-comment"># Everything worked!</span>
+<span class="hljs-number">15</span> 
+<span class="hljs-number">16</span> <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">deglazeEnergyCoupler</span>(<span class="hljs-params">engine: <span class="hljs-type">Any</span>, fast_mode: <span class="hljs-built_in">bool</span> = <span class="hljs-literal">True</span></span>) -&gt; <span class="hljs-literal">None</span>:</span>
+<span class="hljs-number">17</span>     <span class="hljs-keyword">if</span> fast_mode:
+<span class="hljs-number">18</span>         retval = engine.triggerCentralizedDeglazing() <span class="hljs-comment"># triggerCentralizedDeglazing returns True on success</span>
+<span class="hljs-number">19</span>         <span class="hljs-keyword">return</span> retval
+<span class="hljs-number">20</span>     <span class="hljs-keyword">else</span>:
+<span class="hljs-number">21</span>         engine.prepareForDeglazing()
+<span class="hljs-number">22</span>         <span class="hljs-keyword">if</span> engine.preparationComplete():
+<span class="hljs-number">23</span>             engine.startDeglazing()
+<span class="hljs-number">24</span>             <span class="hljs-keyword">return</span> engine.deglazingComplete()
+<span class="hljs-number">25</span>                 
+<span class="hljs-number">26</span>         <span class="hljs-keyword">else</span>:
+<span class="hljs-number">27</span>             <span class="hljs-keyword">return</span> deglazeEnergyCoupler(engine=engine, fast_mode=<span class="hljs-literal">True</span>)
 </code></pre>
-<p>Input the formatted list of smells after <code>10:</code>.</p>
+<p>Assist the system by adding a smelly line index after <code>10:</code>.</p>
 <div class="key">
 10: ""
 </div>
