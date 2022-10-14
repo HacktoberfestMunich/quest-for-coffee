@@ -14,7 +14,7 @@ Please search for those entities on the station and report the total count of th
 
 <details><summary>Hint</summary>
 All entities can be found at the current state.
-<details>
+</details>
 
 <div class="key">
 10: ""

@@ -25,18 +25,18 @@ shows the following image:
     <td>x</td>
     <td>x</td>
     <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>o</td>
   </tr>
   <tr>
     <td>2</td>
     <td>x</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>o</td>
     <td>x</td>
     <td>x</td>
@@ -51,36 +51,36 @@ shows the following image:
     <td>x</td>
     <td>x</td>
     <td>x</td>
-    <td>x</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>x</td>
   </tr>
   <tr>
     <td>4</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>x</td>
   </tr>
   <tr>
     <td>5</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>o</td>
     <td>x</td>
     <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>x</td>
   </tr>
   <tr>
@@ -88,30 +88,30 @@ shows the following image:
     <td>o</td>
     <td>x</td>
     <td>o</td>
-    <td>o</td>
+    <td></td>
     <td>x</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>o</td>
   </tr>
   <tr>
     <td>7</td>
-    <td>o</td>
+    <td></td>
     <td>x</td>
+    <td></td>
+    <td></td>
     <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
   </tr>
   <tr>
     <td>8</td>
-    <td>o</td>
+    <td></td>
     <td>x</td>
     <td>o</td>
     <td>x</td>
@@ -124,27 +124,27 @@ shows the following image:
   </tr>
   <tr>
     <td>9</td>
+    <td></td>
     <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>x</td>
-    <td>o</td>
+    <td></td>
   </tr>
   <tr>
     <td>10</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
     <td>o</td>
     <td>x</td>
     <td>x</td>
-    <td>o</td>
-    <td>o</td>
-    <td>o</td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td>x</td>
     <td>o</td>
   </tr>

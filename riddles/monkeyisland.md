@@ -15,8 +15,6 @@ Second addendum: I have confiscated one of the keys for the escape pods. You can
 In one terminal to your right you also notice a blinking cursor with the prompt `Passwort for Eng. Traynors' room:`. Someone has removed both
 the shift and capslock keys, so that will probably not be used.
 
-![/mnt/drone_1338_discovery/Recording/Q0432_VDiv_Eye.mp4](https://www.youtube.com/watch?v=5ZC5rHMvkwo)
-
 Input the password after `15:`.
 
 <div class="key">
