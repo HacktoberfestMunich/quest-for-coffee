@@ -6,6 +6,7 @@ import { init as initRoomUpdates } from "./roomupdates";
 import { init as initPullrequest } from "./pullrequests";
 import { init as initColors } from "./4colors";
 import { init as initAutoMovement } from "./automovement";
+import { init as initEscape } from "./escape";
 
 WA.onInit().then(() => {
   console.log('WorkAdventure API Extra ready');
@@ -26,4 +27,5 @@ WA.onInit().then(() => {
   initPullrequest();
   initColors();
   initAutoMovement();
+  initEscape();
 });

@@ -19,16 +19,18 @@ Below the text on the middle one, there is also an old sticker: `Get your free c
 
 <script src="https://play.workadventu.re/iframe_api.js"></script>
 <script>
-const form = document.getElementById("symbol");
-form.addEventListener("change", (e) => {
-  const symbols = document.getElementById("symbol").value;
-  const splitted = symbols.split(',')
-  console.debug("Input: " + JSON.stringify(splitted));
-  WA.state.saveVariable("escapeInput", JSON.stringify(splitted));
-});
-const podStatus = WA.state.loadVariable("escapeStatus");
-console.debug("Status: " + podStatus);
-if (podStatus == "OPEN") {
-  form.style = "display:none";
+WA.onInit().then(() => {
+  const form = document.getElementById("symbol");
+  form.addEventListener("change", (e) => {
+    const symbols = document.getElementById("symbol").value;
+    const splitted = symbols.split(',')
+    console.debug("Input: " + JSON.stringify(splitted));
+    WA.state.saveVariable("escapeInput", JSON.stringify(splitted));
+  });
+  const podStatus = WA.state.loadVariable("escapeStatus");
+  console.debug("Status: " + podStatus);
+  if (podStatus == "OPEN") {
+    form.style = "display:none";
+  }
 }
 </script>
