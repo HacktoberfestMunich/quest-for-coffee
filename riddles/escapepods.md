@@ -12,7 +12,7 @@ When you enter the right symbols, a gate to the next space station will open. Th
 Below the text on the middle one, there is also an old sticker: `Get your free cup at StarSpace Coffee, now also on the next space station`
 
 ----
-<form>
+<form action="#">
 <label for="symbol">Symbol input</label><br>
 <input type="text" id="symbol" name="symbol"><br>
 </form>
@@ -20,17 +20,26 @@ Below the text on the middle one, there is also an old sticker: `Get your free c
 <script src="https://play.workadventu.re/iframe_api.js"></script>
 <script>
 WA.onInit().then(() => {
-  const form = document.getElementById("symbol");
-  form.addEventListener("change", (e) => {
+  const formInput = document.getElementById("symbol");
+
+  const portalStatus = WA.state.loadVariable("escapeStatus");
+  const portalInput = WA.state.loadVariable("escapeInput");
+
+  console.debug("Status: " + portalStatus);
+  if (portalStatus == "OPEN") {
+    formInput.style = "display:none";
+  }
+
+  if (portalInput != undefined) {
+    const parsedInput = JSON.parse(portalInput);
+    formInput.value = parsedInput.join(',');
+  }
+
+  formInput.addEventListener("change", (e) => {
     const symbols = document.getElementById("symbol").value;
     const splitted = symbols.split(',')
     console.debug("Input: " + JSON.stringify(splitted));
     WA.state.saveVariable("escapeInput", JSON.stringify(splitted));
   });
-  const podStatus = WA.state.loadVariable("escapeStatus");
-  console.debug("Status: " + podStatus);
-  if (podStatus == "OPEN") {
-    form.style = "display:none";
-  }
 });
 </script>
