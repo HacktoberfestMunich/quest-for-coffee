@@ -992,3 +992,8 @@ main .key:before {
   color: #969696;
   margin-bottom: 0.24em;
 }
+
+p.big-letter {
+  font-size: 5em;
+  text-shadow: 0px 0px 8px #00dce4;
+}
