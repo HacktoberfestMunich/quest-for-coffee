@@ -1,5 +1,6 @@
 const PR_STATS_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/pr-data.json';
 const CODE = "6h7H20B"
+const NERF_CONTRIBUTORS = { "svendroid": 1, "Poeschl": 0, "cramosk": 0 };
 
 let screenMessage;
 
@@ -13,7 +14,12 @@ function checkPRs() {
       const contributorMap = new Map();
       for (const index in contributors) {
         const contributor = contributors[index];
-        contributorMap.set(contributor.contributor, contributor.count);
+
+        const nerfCount = NERF_CONTRIBUTORS[contributor.contributor] || 0;
+        const contributionCount = contributor.count - nerfCount;
+        if (contributionCount > 0) {
+          contributorMap.set(contributor.contributor, contributor.count - nerfCount);
+        }
       }
 
       screenMessage.remove();
@@ -40,9 +46,14 @@ function checkValid(contributorMap) {
 function buildContributionInfo(contributorMap) {
   let text = "Detected contributions: ";
   const sortedContributors = new Map([...contributorMap.entries()].sort((a, b) => b[1] - a[1]));
-  for (const [name, count] of sortedContributors) {
-    text = text + name + ": " + count + "; ";
+  if (sortedContributors.size > 0) {
+    for (const [name, count] of sortedContributors) {
+      text = text + name + ": " + count + "; ";
+    }
+  } else {
+    text = "No contributions detected"
   }
+
   return text.substring(0, text.length - 2);
 }
 
