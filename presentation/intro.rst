@@ -68,6 +68,7 @@ Rules
 
 * During the event, don't enter one of the folders of the GitHub Repository.
    * Only the `solutions.yaml` is the important file for you.
+   * Also browsing the javascript sources in the dev tools is not allowed.
 * All riddles will affect the whole spaceship
    * When a riddle is solved every player will see a challanges
 * Have fun
