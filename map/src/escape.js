@@ -8,6 +8,8 @@ function onInputChanges(input) {
   const parsedInput = JSON.parse(input);
   if (compareArrays(parsedInput, SOLUTION)) {
     WA.state.saveVariable(VAR_PREFIX + "Status", "OPEN");
+  } else {
+    WA.state.saveVariable(VAR_PREFIX + "Status", "CLOSED");
   }
 }
 
@@ -21,7 +23,7 @@ function onStatusChange(status) {
 
 function init() {
 
-  WA.ui.onStatusChange(WA.state.loadVariable(VAR_PREFIX + "Status"));
+  onStatusChange(WA.state.loadVariable(VAR_PREFIX + "Status"));
 
   WA.state.onVariableChange(VAR_PREFIX + "Input").subscribe(input => { onInputChanges(input); });
   WA.state.onVariableChange(VAR_PREFIX + "Status").subscribe(status => { onStatusChange(status); });
