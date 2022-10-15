@@ -1106,34 +1106,42 @@ When coming close to a pedestal an holographic keyboard apprears.</p>
 </code></pre>
 <p>Below the text on the middle one, there is also an old sticker: <code>Get your free cup at StarSpace Coffee, now also on the next space station</code></p>
 <hr>
-<form action="#">
+<form id="form" action="#">
 <label for="symbol">Symbol input</label><br>
 <input type="text" id="symbol" name="symbol"><br>
 </form>
 <script src="https://play.workadventu.re/iframe_api.js"></script>
 <script>
 WA.onInit().then(() => {
-  const formInput = document.getElementById("symbol");
+const form = document.getElementById("form");
+const formInput = document.getElementById("symbol");
 
-  const portalStatus = WA.state.loadVariable("escapeStatus");
-  const portalInput = WA.state.loadVariable("escapeInput");
+const portalStatus = WA.state.loadVariable("escapeStatus");
+const portalInput = WA.state.loadVariable("escapeInput");
 
-  console.debug("Status: " + portalStatus);
-  if (portalStatus == "OPEN") {
-    formInput.style = "display:none";
+function onStatusChange(status){
+  if (status == "OPEN") {
+    form.style = "display:none";
+  } else {
+    form.style = "";
   }
+}
 
-  if (portalInput != undefined) {
-    const parsedInput = JSON.parse(portalInput);
-    formInput.value = parsedInput.join(',');
-  }
+console.debug("Status: " + portalStatus);
+WA.state.onVariableChange(VAR_PREFIX + "Status").subscribe(status => { onStatusChange(status) });
+onStatusChange(portalStatus);
 
-  formInput.addEventListener("change", (e) => {
-    const symbols = document.getElementById("symbol").value;
-    const splitted = symbols.split(',')
-    console.debug("Input: " + JSON.stringify(splitted));
-    WA.state.saveVariable("escapeInput", JSON.stringify(splitted));
-  });
+if (portalInput != undefined) {
+  const parsedInput = JSON.parse(portalInput);
+  formInput.value = parsedInput.join(',');
+}
+
+formInput.addEventListener("change", (e) => {
+  const symbols = document.getElementById("symbol").value;
+  const splitted = symbols.split(',')
+  console.debug("Input: " + JSON.stringify(splitted));
+  WA.state.saveVariable("escapeInput", JSON.stringify(splitted));
+});
 });
 </script>
 
