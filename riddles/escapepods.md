@@ -32,5 +32,5 @@ WA.onInit().then(() => {
   if (podStatus == "OPEN") {
     form.style = "display:none";
   }
-}
+});
 </script>
