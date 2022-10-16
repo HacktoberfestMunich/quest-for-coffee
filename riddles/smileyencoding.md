@@ -104,7 +104,9 @@ from *way* before the Age of Stars displayed in one of the windows.
             }
             function runCircle()
             {
-                var out = document.getElementById("output")
+                var out = document.getElementById("decoded")
+                console.log(out.innerHtml)
+                console.log(decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604"))
                 out.innerHtml = decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604")
             }
     </script>
@@ -132,7 +134,8 @@ Just grab a bottle of mate and be on my way.
 
 The third window contains a display, showing the following content:
 
-<p><code>Your decoded password is: <div id="output"></div></code></p>
+<p><code>Your decoded password is: </code></p><div id="decoded"></div>
+
 The fourth and final window shows a prompt, waiting for something. On the side of the monitor, close to this window,
 someone has tucked on a note:
 
