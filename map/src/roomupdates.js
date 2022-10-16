@@ -49,15 +49,22 @@ function executeSubscriptionActions(riddleId) {
 
 function registerRiddleSubscription(riddleId, onSolveCallback) {
   ROOM_SUBSCRIPTIONS.set(riddleId, onSolveCallback);
+  if (OPEN_ALL) {
+    onSolveCallback()
+  }
 }
 
 function init() {
   checkForNewOpenDoors();
   setInterval(checkForNewOpenDoors, UPDATE_INTERVAL);
 
-  if(OPEN_ALL) {
+  if (OPEN_ALL) {
     WA.room.hideLayer("Doors");
     WA.room.hideLayer("RiddleLayerHidesTransparency");
+
+    for (callback in Object.values(ROOM_SUBSCRIPTIONS)) {
+      callback();
+    }
   }
 }
 
