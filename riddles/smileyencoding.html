@@ -1202,7 +1202,9 @@ from <em>way</em> before the Age of Stars displayed in one of the windows.</p>
             }
             function runCircle()
             {
-                var out = document.getElementById("output")
+                var out = document.getElementById("decoded")
+                console.log(out.innerHtml)
+                console.log(decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604"))
                 out.innerHtml = decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604")
             }
     </script>
@@ -1226,9 +1228,9 @@ Just grab a bottle of mate and be on my way.
 </code>
 </p>
 <p>The third window contains a display, showing the following content:</p>
-<p><code>Your decoded password is: </code></p><div id="output"></div><p></p>
-The fourth and final window shows a prompt, waiting for something. On the side of the monitor, close to this window,
-someone has tucked on a note:
+<p><code>Your decoded password is: </code></p><div id="decoded"></div>
+<p>The fourth and final window shows a prompt, waiting for something. On the side of the monitor, close to this window,
+someone has tucked on a note:</p>
 <blockquote>
 <p>Readable text password, no inappropriate words. Stick to the guidelines, Frank!</p>
 </blockquote>
