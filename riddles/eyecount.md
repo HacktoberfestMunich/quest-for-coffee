@@ -6,7 +6,7 @@ On a notepad, several numbers have been jotted down and crossed out.
 In one terminal to your right you also notice the following text.
 
 `Video file found at`
-[/mnt/drone_1338_discovery/Recording/Q0432_VDiv_Eye.mp4](https://www.youtube.com/watch?v=5ZC5rHMvkwo)
+<a href="https://www.youtube.com/watch?v=5ZC5rHMvkwo" target="_blank">/mnt/drone_1338_discovery/Recording/Q0432_VDiv_Eye.mp4</a>
 
 `Count:`
 
