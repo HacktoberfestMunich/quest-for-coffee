@@ -7,6 +7,7 @@ const COMBINATIONS = [
   ['blue', 'blue', 'red', 'red', 'red', 'yellow', 'green']
 ];
 const VAR_PRESET = "colors-";
+const CODE = "1cvBsd3";
 const WRONG_SOUND = WA.sound.loadSound("https://cdn.pixabay.com/download/audio/2022/03/10/audio_8b0fae46ef.mp3?filename=wrong-47985.mp3");
 const CORRECT_SOUND = WA.sound.loadSound("https://cdn.pixabay.com/download/audio/2021/08/04/audio_a5fa3caf34.mp3?filename=good-6081.mp3");
 
@@ -123,7 +124,7 @@ function showMessage() {
 
   let text;
   if (status == "FINISHED") {
-    text = "Color-coded lock unlocked! Here is your code: 6cvBsd3";
+    text = "Color-coded lock unlocked! Here is your code: " + CODE;
   } else {
     text = "Press the red button.";
   }
