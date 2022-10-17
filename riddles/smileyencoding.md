@@ -67,7 +67,6 @@ from *way* before the Age of Stars displayed in one of the windows.
 </form>
 <script src="https://play.workadventu.re/iframe_api.js"></script>
 <script>
-    WA.onInit().then(() => {
     const keyelement0 = document.getElementById("emojikey0-select")
     const keyelement1 = document.getElementById("emojikey1-select")
     const keyelement2 = document.getElementById("emojikey2-select")
@@ -108,23 +107,22 @@ from *way* before the Age of Stars displayed in one of the windows.
             var keyA = parseInt(total.substring(52,57), 16);
             var keyB = parseInt(total.substring(57) + total.substring(0,2), 16);
             return [key0, key1, key2, key3, key4, key5, key6, key7, key8, key9, keyA, keyB];
-        }
-        function decode(input) {
-            var keys = keygen();
-            var out = []
-            for (var i = 0; i < 12; ++i)
-            {
-                out.push(String.fromCharCode(parseInt(input.substring(8*i, 8*(i+1)), 10) ^ keys[i]))
-            }
-            return out.join("")
-        }
-        function runCircle()
+    }
+    function decode(input) {
+        var keys = keygen();
+        var out = []
+        for (var i = 0; i < 12; ++i)
         {
-            console.log(outelement.innerHtml)
-            console.log(decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604"))
-            outelement.innerHtml = decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604")
+            out.push(String.fromCharCode(parseInt(input.substring(8*i, 8*(i+1)), 10) ^ keys[i]))
         }
-});
+        return out.join("")
+    }
+    function runCircle()
+    {
+        console.log(outelement.innerHtml)
+        console.log(decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604"))
+        outelement.innerHtml = decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604")
+    }
 </script>
 
 Another window appears to contain a wall of text someone left open.
