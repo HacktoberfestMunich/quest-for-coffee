@@ -9,7 +9,7 @@ This particular door system is notorious for using the equality operator
 between a reference clock and a real-time clock instead of checking if the time is in range.
 
 <details><summary>Task</summary>
-To proceed, set the system time so that the doorlock is released. Finish the command shown above after `12:`.
+To proceed, set the system time so that the doorlock is released. Finish the command shown above after `13:`.
 </details>
 
 <div class="key">

@@ -38,7 +38,7 @@ throws a neon-ridden error message:
 27             return deglazeEnergyCoupler(engine=engine, fast_mode=True)
 ```
 
-Assist the system by adding a smelly line index after `10:`.
+Assist the system by adding a smelly line index after `11:`.
 
 <div class="key">
 11: ""
