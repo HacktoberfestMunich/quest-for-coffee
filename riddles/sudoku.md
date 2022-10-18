@@ -16,7 +16,7 @@ Some lines after this, another message has been written down. The text is less o
 > your voicemail about 'logic in the numbers' doesn't help - some are missing, thanks to Ensign Guybrush. Fix this!
 
 <details><summary>Task</summary>
-To proceed, solve the mystery of the missing numbers. Write them with no separation, reading from the top, left to right, behind the `11:`.
+To proceed, solve the mystery of the missing numbers. Write them with no separation, reading from the top, left to right, behind the `12:`.
 </details>
 
 <div class="key">
