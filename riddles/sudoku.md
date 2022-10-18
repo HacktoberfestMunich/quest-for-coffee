@@ -20,5 +20,5 @@ To proceed, solve the mystery of the missing numbers. Write them with no separat
 </details>
 
 <div class="key">
-11: ""
+12: ""
 </div>
