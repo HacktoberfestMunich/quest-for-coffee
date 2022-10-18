@@ -24,11 +24,7 @@ Markus Pöschl & Alex Mayer
 :data-x: r2400
 :data-y: 0
 
-.. image:: images/MM-logo.svg
-   :height: 260px
-   
-.. image:: images/P-logo.svg
-   :height: 260px
+.. image:: images/sponsors.png
 
 Sponsor
 -------
