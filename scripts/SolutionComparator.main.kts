@@ -62,12 +62,13 @@ class SolutionComparator {
         val correctSolutions = mutableMapOf<String, Boolean>()
         validSolutions.forEach() { solution ->
             if (fileSolutions.containsKey(solution.key)) {
-                val correctValue = solution.value
+                val correctValue = solution.value.lowercase()
+                val userInput = fileSolutions[solution.key]?.lowercase();
                 if (correctValue.startsWith("[") && correctValue.endsWith("]")) {
                     val correctValues = correctValue.substring(1, correctValue.length - 1).split(",")
-                    correctSolutions[solution.key] = correctValues.contains(fileSolutions[solution.key])
+                    correctSolutions[solution.key] = correctValues.contains(userInput)
                 } else {
-                    correctSolutions[solution.key] = fileSolutions[solution.key] == correctValue
+                    correctSolutions[solution.key] = userInput == correctValue
                 }
             }
         }
