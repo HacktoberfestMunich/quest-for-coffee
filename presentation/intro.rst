@@ -24,15 +24,18 @@ Markus Pöschl & Alex Mayer
 :data-x: r2400
 :data-y: 0
 
-.. image:: images/PG_Logo_Web.png
+.. image:: images/MM-logo.svg
+   :height: 260px
+   
+.. image:: images/P-logo.svg
    :height: 260px
 
 Sponsor
 -------
 
-PIXEL Group GmbH
+Mixed Mode GmbH & Pixel GmbH
 
-Simon Ashdown
+Helmut Süßmuth
 
 ----
 
@@ -71,7 +74,7 @@ Rules
    * Only the `solutions.yaml` is the important file for you.
    * Also browsing the javascript sources in the dev tools is not allowed.
 * All riddles will affect the whole spaceship
-   * When a riddle is solved every player will see a challanges
+   * When a riddle is solved every player will see changes
 * Have fun
 
 ----
