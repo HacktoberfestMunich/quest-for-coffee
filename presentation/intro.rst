@@ -41,8 +41,9 @@ Simon Ashdown
 Important things first
 ----------------------
 
-* Dinner will arive at about 8:30 PM.
+* Pizza's will arive at about 8:00 PM.
 * Drinks and snacks in the kitchen.
+* Official end is 10 PM but we will stay til the end.
 
 We also have vegetarians covered. ;)
 
