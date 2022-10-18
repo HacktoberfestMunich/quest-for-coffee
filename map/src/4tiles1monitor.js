@@ -55,6 +55,14 @@ function showCheckMessage() {
   });
 }
 
+function showResetMessage() {
+  screenMessage = WA.ui.displayActionMessage({
+    message: "Click Space to reset tile counters",
+    type: "message",
+    callback: () => { resetTiles(); }
+  });
+}
+
 function setTileVariable(tileId, playerOnIt) {
   let current = WA.state.loadVariable(VAR_PRESET + tileId);
 
@@ -66,6 +74,12 @@ function setTileVariable(tileId, playerOnIt) {
   }
   WA.state.saveVariable(VAR_PRESET + tileId, newState);
   console.debug("4tiles: " + tileId + " " + current + " -> " + newState);
+}
+
+function resetTiles(){
+  for (let tileId = 1; tileId <= 9; tileId++) {
+    WA.state.saveVariable(VAR_PRESET + tileId, 0);    
+  }
 }
 
 function init() {
@@ -99,6 +113,9 @@ function init() {
 
   WA.room.onEnterLayer("4tiles1monitor/code").subscribe(() => { showCheckMessage() });
   WA.room.onLeaveLayer("4tiles1monitor/code").subscribe(() => { screenMessage.remove() });
+
+  WA.room.onEnterLayer("4tiles1monitor/reset").subscribe(() => { showResetMessage() });
+  WA.room.onLeaveLayer("4tiles1monitor/reset").subscribe(() => { screenMessage.remove() });
 }
 
 export { init }
