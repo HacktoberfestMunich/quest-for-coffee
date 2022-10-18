@@ -1163,67 +1163,6 @@ from <em>way</em> before the Age of Stars displayed in one of the windows.</p>
         <option value="1F9ED">🧭</option>
     </select>
 </form>
-<script src="https://play.workadventu.re/iframe_api.js"></script>
-<script>
-    WA.onInit().then(() => {
-    const keyelement0 = document.getElementById("emojikey0-select")
-    const keyelement1 = document.getElementById("emojikey1-select")
-    const keyelement2 = document.getElementById("emojikey2-select")
-    const keyelement3 = document.getElementById("emojikey3-select")
-    const keyelement4 = document.getElementById("emojikey4-select")
-    const keyelement5 = document.getElementById("emojikey5-select")
-    const keyelement6 = document.getElementById("emojikey6-select")
-    const keyelement7 = document.getElementById("emojikey7-select")
-    const keyelement8 = document.getElementById("emojikey8-select")
-    const keyelement9 = document.getElementById("emojikey9-select")
-    const keyelementA = document.getElementById("emojikeyA-select")
-    const keyelementB = document.getElementById("emojikeyB-select")
-    const outelement = document.getElementById("decoded")
-    function keygen() {
-            var val0 = keylement0.value;
-            var val1 = keylement1.value;
-            var val2 = keylement2.value;
-            var val3 = keylement3.value;
-            var val4 = keylement4.value;
-            var val5 = keylement5.value;
-            var val6 = keylement6.value;
-            var val7 = keylement7.value;
-            var val8 = keylement8.value;
-            var val9 = keylement9.value;
-            var valA = keylementA.value;
-            var valB = keylementB.value;
-            var total = val0+val1+val2+val3+val4+val5+val6+val7+val8+val9+valA+valB;
-            var key0 = parseInt(total.substring( 2, 7), 16);
-            var key1 = parseInt(total.substring( 7,12), 16);
-            var key2 = parseInt(total.substring(12,17), 16);
-            var key3 = parseInt(total.substring(17,22), 16);
-            var key4 = parseInt(total.substring(22,27), 16);
-            var key5 = parseInt(total.substring(27,32), 16);
-            var key6 = parseInt(total.substring(32,37), 16);
-            var key7 = parseInt(total.substring(37,42), 16);
-            var key8 = parseInt(total.substring(42,47), 16);
-            var key9 = parseInt(total.substring(47,52), 16);
-            var keyA = parseInt(total.substring(52,57), 16);
-            var keyB = parseInt(total.substring(57) + total.substring(0,2), 16);
-            return [key0, key1, key2, key3, key4, key5, key6, key7, key8, key9, keyA, keyB];
-        }
-        function decode(input) {
-            var keys = keygen();
-            var out = []
-            for (var i = 0; i < 12; ++i)
-            {
-                out.push(String.fromCharCode(parseInt(input.substring(8*i, 8*(i+1)), 10) ^ keys[i]))
-            }
-            return out.join("")
-        }
-        function runCircle()
-        {
-            console.log(outelement.innerHtml)
-            console.log(decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604"))
-            outelement.innerHtml = decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604")
-        }
-});
-</script>
 <p>Another window appears to contain a wall of text someone left open.</p>
 <p>
 <code>
@@ -1255,6 +1194,64 @@ When you are certain that the correct password has been unscrambled, add it behi
 <div class="key">
 8: ""
 </div>
+<script>
+    const keyelement0 = document.getElementById("emojikey0-select")
+    const keyelement1 = document.getElementById("emojikey1-select")
+    const keyelement2 = document.getElementById("emojikey2-select")
+    const keyelement3 = document.getElementById("emojikey3-select")
+    const keyelement4 = document.getElementById("emojikey4-select")
+    const keyelement5 = document.getElementById("emojikey5-select")
+    const keyelement6 = document.getElementById("emojikey6-select")
+    const keyelement7 = document.getElementById("emojikey7-select")
+    const keyelement8 = document.getElementById("emojikey8-select")
+    const keyelement9 = document.getElementById("emojikey9-select")
+    const keyelementA = document.getElementById("emojikeyA-select")
+    const keyelementB = document.getElementById("emojikeyB-select")
+    const outelement = document.getElementById("decoded")
+    function keygen() {
+    var val0 = keyelement0.value;
+    var val1 = keyelement1.value;
+    var val2 = keyelement2.value;
+    var val3 = keyelement3.value;
+    var val4 = keyelement4.value;
+    var val5 = keyelement5.value;
+    var val6 = keyelement6.value;
+    var val7 = keyelement7.value;
+    var val8 = keyelement8.value;
+    var val9 = keyelement9.value;
+    var valA = keyelementA.value;
+    var valB = keyelementB.value;
+    var total = val0+val1+val2+val3+val4+val5+val6+val7+val8+val9+valA+valB;
+    var key0 = parseInt(total.substring( 2, 7), 16);
+    var key1 = parseInt(total.substring( 7,12), 16);
+    var key2 = parseInt(total.substring(12,17), 16);
+    var key3 = parseInt(total.substring(17,22), 16);
+    var key4 = parseInt(total.substring(22,27), 16);
+    var key5 = parseInt(total.substring(27,32), 16);
+    var key6 = parseInt(total.substring(32,37), 16);
+    var key7 = parseInt(total.substring(37,42), 16);
+    var key8 = parseInt(total.substring(42,47), 16);
+    var key9 = parseInt(total.substring(47,52), 16);
+    var keyA = parseInt(total.substring(52,57), 16);
+    var keyB = parseInt(total.substring(57) + total.substring(0,2), 16);
+    return [key0, key1, key2, key3, key4, key5, key6, key7, key8, key9, keyA, keyB];
+    }
+    function decode(input) {
+    var keys = keygen();
+    var out = []
+    for (var i = 0; i < 12; ++i)
+    {
+    out.push(String.fromCharCode(parseInt(input.substring(8*i, 8*(i+1)), 10) ^ keys[i]))
+    }
+    return out.join("")
+    }
+    function runCircle()
+    {
+    console.log(outelement.innerHTML)
+    console.log(decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604"))
+    outelement.innerHTML = decode("004014880044682900450683003324100059428800398695004975310039868400303735003162590046091200650604")
+    }
+</script>
 
 		</main>
 	</body>
