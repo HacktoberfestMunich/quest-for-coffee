@@ -11,6 +11,7 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.File
 import java.io.IOException
+import java.nio.charset.Charset
 import java.util.*
 import kotlin.io.path.Path
 import kotlin.system.exitProcess
@@ -35,7 +36,8 @@ class SolutionComparator {
                     MapSerializer(String.serializer(), String.serializer()),
                     String(
                         Base64.getDecoder().decode(
-                            File("riddles/valid-solutions.yaml").readText().trim().toByteArray()
+                            File(VALID_SOLUTION_FILE)
+                                .readText(Charset.forName("UTF-8")).replace("\n", "").trim().toByteArray(Charset.forName("UTF-8"))
                         )
                     )
                 )
@@ -60,12 +62,18 @@ class SolutionComparator {
         val correctSolutions = mutableMapOf<String, Boolean>()
         validSolutions.forEach() { solution ->
             if (fileSolutions.containsKey(solution.key)) {
-                correctSolutions[solution.key] = fileSolutions[solution.key] == solution.value
+                val correctValue = solution.value
+                if (correctValue.startsWith("[") && correctValue.endsWith("]")) {
+                    val correctValues = correctValue.substring(1, correctValue.length - 1).split(",")
+                    correctSolutions[solution.key] = correctValues.contains(fileSolutions[solution.key])
+                } else {
+                    correctSolutions[solution.key] = fileSolutions[solution.key] == correctValue
+                }
             }
         }
         File(COMPARISON_FILE).writeText(Json.encodeToString(correctSolutions))
 
-        if(correctSolutions.map { it.value }.any { !it }) {
+        if (correctSolutions.map { it.value }.any { !it }) {
             correctSolutions.filter { !it.value }.forEach { (riddle, _) ->
                 println("The solution of $riddle is incorrect!")
                 println("::error file=solutions.yaml::The solution of $riddle is incorrect!")
@@ -75,4 +83,3 @@ class SolutionComparator {
         println("Compare result: $correctSolutions")
     }
 }
-
