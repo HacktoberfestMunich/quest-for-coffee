@@ -35,7 +35,7 @@ function onStatusChange(status){
 }
 
 console.debug("Status: " + portalStatus);
-WA.state.onVariableChange(VAR_PREFIX + "Status").subscribe(status => { onStatusChange(status) });
+WA.state.onVariableChange("escapeStatus").subscribe(status => { onStatusChange(status) });
 onStatusChange(portalStatus);
 
 if (portalInput != undefined) {
