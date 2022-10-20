@@ -20,7 +20,7 @@ WA.onInit().then(() => {
   WA.controls.disableMicrophone();
   WA.controls.disablePlayerProximityMeeting();
 
-  initRoomUpdates();
+
   initLayersFunctions();
   init4tiles1monitor();
   initUnicorns();
@@ -28,4 +28,7 @@ WA.onInit().then(() => {
   initColors();
   initAutoMovement();
   initEscape();
+
+  //Must stay at the end to ensure working riddle update subscriptions
+  initRoomUpdates();
 });

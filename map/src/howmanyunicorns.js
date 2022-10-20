@@ -8,7 +8,7 @@ function showHiddenUnicorns() {
 
 function init() {
   WA.room.hideLayer("howmanyunicorns/hidden-unicorns");
-  registerRiddleSubscription(7, showHiddenUnicorns)
+  registerRiddleSubscription(RIDDLE_LISTEN_ID, showHiddenUnicorns)
 }
 
 export { init }

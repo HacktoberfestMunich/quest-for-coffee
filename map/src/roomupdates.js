@@ -3,7 +3,8 @@ import { compareArrays } from './utils';
 
 const UPDATE_INTERVAL = 1000; //in ms
 const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json';
-const OPEN_ALL = false;
+const DEBUG = false;
+const DEBUG_FLAGS = { "0": true, "1": true, "2": true, "3": true, "4": true, "5": true, "6": true, "7": true, "8": true, "10": true, "11": true, "12": true, "13": true, "14": true, "15": true, "16": true, "17": true, "18": true }
 let LAST_RECIEVED_FLAGS = [];
 let ROOM_SUBSCRIPTIONS = new Map();
 
@@ -22,50 +23,48 @@ async function findLayerGroup(riddleId) {
 
 function checkForNewOpenDoors() {
 
-  fetch(RESULT_FILE)
-    .then(res => res.json())
-    .then(async doorFlags => {
-      const recievedFlags = Object.values(doorFlags);
-      if (!compareArrays(recievedFlags, LAST_RECIEVED_FLAGS)) {
-        LAST_RECIEVED_FLAGS = recievedFlags;
+  if (!DEBUG) {
+    fetch(RESULT_FILE)
+      .then(res => res.json())
+      .then(async doorFlags => {
+        checkFlags(doorFlags);
+      });
+  } else {
+    console.log("### DEBUG MODE ###\nUsing DEBUG door flags.")
+    checkFlags(DEBUG_FLAGS);
+  }
+}
 
-        console.debug("Recieved new door flags " + JSON.stringify(doorFlags));
-        for (const [riddleId, open] of Object.entries(doorFlags)) {
-          if (open) {
-            openArea(await findLayerGroup(riddleId));
-            executeSubscriptionActions(riddleId)
-          }
-        }
+async function checkFlags(doorFlags) {
+  const recievedFlags = Object.values(doorFlags);
+  if (!compareArrays(recievedFlags, LAST_RECIEVED_FLAGS)) {
+    LAST_RECIEVED_FLAGS = recievedFlags;
+
+    console.debug("Recieved new door flags " + JSON.stringify(doorFlags));
+    for (const [riddleId, open] of Object.entries(doorFlags)) {
+      if (open) {
+        openArea(await findLayerGroup(riddleId));
+        executeSubscriptionActions(riddleId)
       }
-    });
+    }
+  }
 }
 
 function executeSubscriptionActions(riddleId) {
-  const callback = ROOM_SUBSCRIPTIONS.get(riddleId);
+  const callback = ROOM_SUBSCRIPTIONS.get(parseInt(riddleId));
   if (callback != undefined) {
+    console.debug("Execute riddle subscription callback for riddle " + riddleId);
     callback();
   }
 }
 
 function registerRiddleSubscription(riddleId, onSolveCallback) {
   ROOM_SUBSCRIPTIONS.set(riddleId, onSolveCallback);
-  if (OPEN_ALL) {
-    onSolveCallback()
-  }
 }
 
 function init() {
   checkForNewOpenDoors();
   setInterval(checkForNewOpenDoors, UPDATE_INTERVAL);
-
-  if (OPEN_ALL) {
-    WA.room.hideLayer("Doors");
-    WA.room.hideLayer("RiddleLayerHidesTransparency");
-
-    for (callback in Object.values(ROOM_SUBSCRIPTIONS)) {
-      callback();
-    }
-  }
 }
 
 export { init, registerRiddleSubscription };
