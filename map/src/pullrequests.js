@@ -1,4 +1,4 @@
-const PR_STATS_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/pr-data.json';
+const PR_STATS_FILE = 'https://hacktoberfestmunich.github.io/quest-for-coffee/solutions/pr-data.json';
 const CODE = "6h7H20B"
 const NERF_CONTRIBUTORS = { "svendroid": 1, "Poeschl": 0, "cramosk": 0 };
 

@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPOSITORY: Poeschl/quest-for-coffee
+  REPOSITORY: HacktoberfestMunich/quest-for-coffee
 
 jobs:
   deploy:

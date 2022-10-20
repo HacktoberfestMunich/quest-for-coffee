@@ -2,7 +2,7 @@ import { getLayersMap } from '@workadventure/scripting-api-extra';
 import { compareArrays } from './utils';
 
 const UPDATE_INTERVAL = 1000; //in ms
-const RESULT_FILE = 'https://poeschl.github.io/quest-for-coffee/solutions/result.json';
+const RESULT_FILE = 'https://hacktoberfestmunich.github.io/quest-for-coffee/solutions/result.json';
 const DEBUG = false;
 const DEBUG_FLAGS = { "0": true, "1": true, "2": true, "3": true, "4": true, "5": true, "6": true, "7": true, "8": true, "10": true, "11": true, "12": true, "13": true, "14": true, "15": true, "16": true, "17": true, "18": true }
 let LAST_RECIEVED_FLAGS = [];
