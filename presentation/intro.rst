@@ -61,10 +61,23 @@ What will be doing today?
 
 ----
 
+.. image:: images/hacktoberfest.png
+
+Registered for Hacktoberfest?
+-----------------------------
+
+* As every year GitHub and sponsors will provide a free t-shirt during october
+* 4 Pull Requests must be made on repositories with the label `hacktoberfest`
+* The PR's must be approved to count after a grace period of 7 days
+
+**And you need to be registered:** https://hacktoberfest.com/
+
+----
+
 .. image:: images/rules.jpg
 
-Rules
------
+And then the rules
+------------------
 
 * During the event, don't enter one of the folders of the GitHub Repository.
    * Only the `solutions.yaml` is the important file for you.
