@@ -15,7 +15,7 @@ throws a neon-ridden error message:
  4 
  5 def overwriteGranolaInjector(
  6     engine: Any, # Should run with any engine
- 7     overwrite_granola: bool # This parameter controls if the granola  overwrite should be triggered
+ 7     overwrite_granola: bool # This parameter controls if the granola overwrite should be triggered
  8     ) -> bool:
  9     overwrite_granola = True
 10    if overwrite_granola:
