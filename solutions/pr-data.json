@@ -1,38 +1,70 @@
 [
   {
-    "contributor": "Anschke",
-    "count": 2
-  },
-  {
-    "contributor": "Mandorosmania",
+    "contributor": "AndreasLSchauer",
     "count": 1
   },
   {
+    "contributor": "Anschke",
+    "count": 6
+  },
+  {
+    "contributor": "Mandorosmania",
+    "count": 3
+  },
+  {
     "contributor": "Poeschl",
-    "count": 7
+    "count": 6
+  },
+  {
+    "contributor": "alwaysccommit",
+    "count": 5
   },
   {
     "contributor": "codexii554",
-    "count": 2
+    "count": 4
   },
   {
     "contributor": "cramosk",
     "count": 11
   },
   {
-    "contributor": "kahnM",
+    "contributor": "hashkode",
     "count": 1
+  },
+  {
+    "contributor": "kahnM",
+    "count": 4
   },
   {
     "contributor": "kaythe",
     "count": 7
   },
   {
-    "contributor": "svendroid",
+    "contributor": "marcelnabeck",
     "count": 2
   },
   {
-    "contributor": "yellowmoneybank",
+    "contributor": "marioweid",
+    "count": 4
+  },
+  {
+    "contributor": "rakshitmidha",
+    "count": 4
+  },
+  {
+    "contributor": "riemto",
     "count": 1
+  },
+  {
+    "contributor": "svendroid",
+    "count": 3
+  },
+  {
+    "contributor": "valilai",
+    "count": 1
+  },
+  {
+    "contributor": "yellowmoneybank",
+    "count": 3
   }
 ]
