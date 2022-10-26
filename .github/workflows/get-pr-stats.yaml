@@ -3,8 +3,6 @@ name: Update PR statistics
 on:
   pull_request:
     types:
-      - opened
-      - reopened
       - closed
   workflow_dispatch:
 
